@@ -39,6 +39,7 @@
 - [ ] #repeat-task Journal about your day
 - [ ] #repeat-task Write some fiction
 - [ ] #repeat-task Work on \<crochet project\>
+- [ ] #repeat-task Work on \<woodburning project\>
 
 #### Just for Ye
 - [ ] #repeat-task Tell Lily you love her before bed/when you wake up
