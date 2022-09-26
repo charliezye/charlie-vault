@@ -94,14 +94,6 @@ The following goals are general goals included as an outline every data structur
 6. In a non-empty binary tree, the total number of edges is exactly 1 less than the number of nodes
 
 ---
-
-#### Binary Search Tree
-- Using for various searching sorting
-- Value of left node is always less than parent, right is always greater
-- Examples are AVL trees, red-black trees
-
-
----
 ---
 
 ### 2) Data Structure Implementation
@@ -203,9 +195,18 @@ For each node, 2 more spots for left/right allocated at end of string
 
 #### Insertion    
 
+##### Level Order (O(V) time where V is num nodes, O(B) space where B is width of tree)
+- Traverse nodes in level order, adding to a queue
+	- Dequeue and check left and right nodes in level order until an empty spot is found and add node there
+- In worst case, we need to hold all vertices of a level in the queue
+- This method of insertion will guarantee creation of a complete binary tree
+
 ---
 
 #### Deletion
+##### Replacement with Deepest Node (O(n) time and space)
+- Replace node being deleted with deepest and rightmost node in binary tree
+	- No order among elements so can replace with last element
 
 ---
 
@@ -338,10 +339,24 @@ For each node, 2 more spots for left/right allocated at end of string
 ---
 
 #### Insertion    
+##### Level Order (O(V) time where V is num nodes, O(B) space where B is width of tree)
+1. Create new node with value to be inserted and queue
+2. Traverse nodes in level order, adding to queue until finding an empty spot
+3. With each step dequeue one node from queue until queue is empty
+	1. If left child of node is empty, make new node left child of that node
+		1. Else add left child to queue
+	2. Else if right child is empty, make new node right child of node
+		1. Else add right child to queue
 
 ---
 
 #### Deletion
+##### Replacement with Deepest Node (O(n) time and space)
+1. Do level order traversal storing non-empty child nodes in a queue and popping to check
+	1. Store a pointer to the node containing the value to be deleted
+	2. Store a pointer to node most recently added to queue to track parent of rightmost deepest node
+2. Once deepest and right-most node is found (queue is empty), replace value in node containing value to delete with value of this node
+	1. Remove pointer from parent to rightmost deepest node, effectively deleting it
 
 ---
 
@@ -393,12 +408,6 @@ For each node, 2 more spots for left/right allocated at end of string
      *I = Number of internal nodes*
 
 2. In a Binary tree, the number of leaf nodes is always one more than nodes with two children.
-
----
-
-#### Specific important binary trees
-1. AVL
-2. Red and black
 
 ---
 ---
