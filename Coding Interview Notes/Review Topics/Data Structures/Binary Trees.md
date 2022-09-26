@@ -207,36 +207,42 @@ For each node, 2 more spots for left/right allocated at end of string
 ##### Replacement with Deepest Node (O(n) time and space)
 - Replace node being deleted with deepest and rightmost node in binary tree
 	- No order among elements so can replace with last element
+- Use queue to traverse and find nodes given value
 
 ---
 
 #### Searching
+##### Level Order Search (O(n) time and space)
+- Same concept as above, using queue to traverse, checking value of each node until found
 
 ---
 
-#### Sorting
-
----
-
-#### Merging
+#### Summation
+##### Recursive Method (O(n) time and space)
+- Recursively call left and right subtree sums and add values with current node's value
+##### Iterative Method (O(n) time and space)
+- Do level order traversal like above and add to sum each time node is dequeued
 
 ---
 
 ### Tree-Specific Operations
 
 #### Height of Tree
+##### Recursive Method (O(n) time, O(n) space on callstack)
+- Recursively call height function on left and right subtrees
+	- After heights are found for each subtree, compare and return greater height + 1
 
 ---
 
 #### Level of tree
+- If finding level of a specific node, level order traverse until node is found
+	- Keep track of level, each time children are added increment level
+- Can also aco
 
 ---
 
 #### Size of entire tree
-
----
-
-#### Deepest Node
+- Level order traverse using queue and add to count of node with each node dequeued
 
 ---
 ---
@@ -339,6 +345,7 @@ For each node, 2 more spots for left/right allocated at end of string
 ---
 
 #### Insertion    
+
 ##### Level Order (O(V) time where V is num nodes, O(B) space where B is width of tree)
 1. Create new node with value to be inserted and queue
 2. Traverse nodes in level order, adding to queue until finding an empty spot
@@ -351,6 +358,7 @@ For each node, 2 more spots for left/right allocated at end of string
 ---
 
 #### Deletion
+
 ##### Replacement with Deepest Node (O(n) time and space)
 1. Do level order traversal storing non-empty child nodes in a queue and popping to check
 	1. Store a pointer to the node containing the value to be deleted
@@ -362,19 +370,31 @@ For each node, 2 more spots for left/right allocated at end of string
 
 #### Searching
 
----
+##### Level Order Search (O(n) time, O(n) space)
+1. Do level order traversal storing non-empty child nodes in a queue
+	1. Pop to compare value to search value and recursively add children until queue is empty
+	2. Stop if value is found
 
-#### Sorting
+--- 
 
----
+#### Summation
 
-#### Merging
+##### Recursive Method (O(n) time and space)
+1. Recur on left and right children
+2. Add sum result of left and right children to value of current node and return
+##### Iterative Method (O(n) time and space)
+1. Use a queue and traverse in level order
+2. Dequeue nodes with each step, adding child nodes to queue, and adding the value of the node dequeued to a sum
 
 ---
 
 ### Tree-Specific Operations
 
 #### Height of Tree
+
+##### Recursive Method (O(n) time, O(n) space on callstack)
+1. Recur on left and children of current node until null
+	1. Compare height value of left and right child and return the greater value + 1 to account for the current node in height
 
 ---
 
@@ -384,9 +404,6 @@ For each node, 2 more spots for left/right allocated at end of string
 
 #### Size of entire tree
 
----
-
-#### Deepest Node
 
 ---
 ---
