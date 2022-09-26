@@ -237,7 +237,8 @@ For each node, 2 more spots for left/right allocated at end of string
 #### Level of tree
 - If finding level of a specific node, level order traverse until node is found
 	- Keep track of level, each time children are added increment level
-- Can also aco
+- Can also accomplish this by recursion by recurring on left and right subtrees and including level in function call
+	- Each successive call should use level of current call + 1
 
 ---
 
