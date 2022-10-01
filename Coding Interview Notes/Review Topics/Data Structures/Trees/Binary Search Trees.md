@@ -100,10 +100,42 @@ Recursive Step: Left and right child are set to recursive call
 		1. Traverse as far left in right subtree and deepest child is smallest
 	2. Delete inorder successor by calling delete on right subtree with successor value
 
-##### Iterative Method
+ ##### Improvement (Less Calls)
 
 - Keep track of parent node of successor to make child of that parent null to delete
 	- Successor will always be leaf node
+- Only different step is during 3.2.
+	- Instead of calling delete (extra call stack calls), delete successor from saved parent
+	- Can safely replace successor with parent's right child as it is always left child of parent
+	- If no succ, assign parent's right child to successor's right child 
+
+
+
+##### +++
+###### Advantages over Hash Table
+- Hash Table O(1) time operations
+	- Search
+	- Insert
+	- Delete
+- In BST these are all O(log n)
+
+1. Can get all keys in sorted order with an inorder traversal (O(n))
+	1. O(n log n) for hash table, much less simple operation
+2. Easier Operations
+	1. [Order statistics](https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)
+	2. [Find closest lower and greater elements](https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/)
+	3. [Range queries](https://www.geeksforgeeks.org/print-bst-keys-in-the-given-range/)
+		1. This is important to remember
+		2. To do a range search in hash table must iterate every bucket space O(n) or worse
+		3. BST will not search subtrees that cannot have answer
+3. Easy to implement custom BST
+	1. Hash table requires hashing generally relying on libraries
+4. With self balancing BSTs, operations guaranteed in O(log n time)
+	1. For hash tables O(1) is average time, some are costly O(n<sup>2</sup>)  esp. with table resizing
+5. BST are more memory efficient than hash tables
+	1. Hash function range forces 
+
+##### Applications
 
 - Using for various searching sorting
 - Value of left node is always less than parent, right is always greater
