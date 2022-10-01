@@ -119,3 +119,10 @@
 	1. Be very careful to not put self in situation where referencing instance field or method of a null value 
 	2. If calling next in repeated fashion more than once, always check if current and next are null
 
+##### 6) K Weakest Rows
+1. Didn't know how to use heap/binary search which would be best
+2. Overthought using arrays, can't store index and value
+	1. Don't need to use arraylist when size needed is known, consider this next time
+	2. If feel need to store both and sort (no map), probably doing something wrong
+	3. Use other data structure to sort
+3. Need to study writing basic methods
