@@ -126,3 +126,4 @@
 	2. If feel need to store both and sort (no map), probably doing something wrong
 	3. Use other data structure to sort
 3. Need to study writing basic methods
+4. Sol was O(m^2) and O(m), with heap and binary search could reduce to O(n log n)
