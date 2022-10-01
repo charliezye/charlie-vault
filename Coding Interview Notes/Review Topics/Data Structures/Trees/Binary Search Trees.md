@@ -57,7 +57,15 @@ The following goals are general goals included as an outline every data structur
 - A new value is always inserted at a leaf node
 - Search downwards for insertion value until empty child is found
 	- Insert new node into that leaf node position
-- 
+
+##### Iterative Level Order
+- Iteratively traverse the tree using a queue
+
+###### Steps
+1. Create a new node with the value to insert and a queue
+2. Starting with the head, enqueue 
+If find a node w/ left child empty, make new node left child
+- If find node w/ right child empty, make new node right child
 
 - Using for various searching sorting
 - Value of left node is always less than parent, right is always greater
