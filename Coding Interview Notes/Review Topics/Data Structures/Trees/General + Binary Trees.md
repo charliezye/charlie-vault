@@ -174,8 +174,10 @@ For each node, 2 more spots for left/right allocated at end of string
 
 Implementation of these two traversal methods are shown in separate files linked above.
 
-#### Ordered Traversals (O(n) time, O(h) space)
+#### Ordered Traversals 
+###### (O(n) time, O(h) space)
   - Space considers functional call stack
+	  - All algorithms assume O(h) unless otherwise specified
   - For space, if skewed tree will be O(n), if balanced tree will be O(log n)
 
 ##### Pre-Order Traversal (C,L,R)
@@ -281,7 +283,10 @@ Based on threaded binary tree
 
 #### Insertion    
 
-##### Level Order (O(V) time where V is num nodes, O(B) space where B is width of tree)
+##### Iterative Level Order 
+###### O(V) time, O(B) space
+- Where V is num nodes, B is width of tree)
+
 - Traverse nodes in level order, adding to a queue
 	- Dequeue and check left and right nodes in level order until an empty spot is found and add node there
 - In worst case, we need to hold all vertices of a level in the queue
@@ -299,7 +304,8 @@ Based on threaded binary tree
 ---
 
 #### Deletion
-##### Replacement with Deepest Node (O(n) time and space)
+##### Replacement with Deepest Node 
+###### (O(n) time and space)
 - Replace node being deleted with deepest and rightmost node in binary tree
 	- No order among elements so can replace with last element
 - Use queue to traverse and find nodes given value
@@ -314,7 +320,8 @@ Based on threaded binary tree
 ---
 
 #### Searching
-##### Level Order Search (O(n) time and space)
+##### Level Order Search
+###### (O(n) time and space)
 - Same concept as above, using queue to traverse, checking value of each node until found
 
 ###### Steps:
@@ -326,14 +333,17 @@ Based on threaded binary tree
 ---
 
 #### Summation
-##### Recursive Method (O(n) time and space)
+
+##### Recursive Method
+###### (O(n) time and space)
 - Recursively call left and right subtree sums and add values with current node's value
 
 ###### Steps:
 1. Recur on left and right children
 2. Add sum result of left and right children to value of current node and return
 
-##### Iterative Method (O(n) time and space)
+##### Iterative Method
+###### (O(n) time and space)
 - Do level order traversal like above and add to sum each time node is dequeued
 
 ###### Steps:
@@ -345,7 +355,8 @@ Based on threaded binary tree
 ### 4) More Complex (Tree-Specific) Operations
 
 #### Height of Tree
-##### Recursive Method (O(n) time, O(n) space on callstack)
+##### Recursive Method
+###### (O(n) time and space on callstack)
 - Recursively call height function on left and right subtrees
 	- After heights are found for each subtree, compare and return greater height + 1
 
@@ -355,6 +366,7 @@ Based on threaded binary tree
 ---
 
 #### Level of tree
+###### (O(n) time and space)
 - If finding level of a specific node, level order traverse until node is found
 	- Keep track of level, each time children are added increment level
 - Can also accomplish this by recursion by recurring on left and right subtrees and including level in function call
@@ -363,6 +375,7 @@ Based on threaded binary tree
 ---
 
 #### Size of entire tree
+###### (O(n) time and space)
 - Level order traverse using queue and add to count of node with each node dequeued
 
 ---

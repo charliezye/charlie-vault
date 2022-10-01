@@ -53,19 +53,49 @@ The following goals are general goals included as an outline every data structur
 3. If search value greater, recur on right child
 
 #### Insertion
-
+###### O(h) time, O(h) space on call stack
 - A new value is always inserted at a leaf node
 - Search downwards for insertion value until empty child is found
 	- Insert new node into that leaf node position
 
-##### Iterative Level Order
-- Iteratively traverse the tree using a queue
-
+##### Recursive Method
+Base Case: Tree is empty
+Recursive Step: Left and right child are set to recursive call
 ###### Steps
-1. Create a new node with the value to insert and a queue
-2. Starting with the head, enqueue 
-If find a node w/ left child empty, make new node left child
-- If find node w/ right child empty, make new node right child
+1. Starting at head, compare inserting element with current node
+	1. Recur down left subtree if insertion value is less than the current node value
+	2. Recur down right subtree if insertion value greater than current node value
+2. After reaching null return new node (set child equal to)
+3. Return unchanged pointer to current to go back up tree
+
+#### Deletion
+
+##### Three Scenarios
+###### 1. Node to delete is leaf
+- Simply remove from the tree 
+	- Done by setting parent's child to null
+###### 2. Node to delete has only one child
+- Copy child to deletion node and delete child
+###### 3. Node to delete has two children
+- Find in-order successor of node
+	- If right child is not empty
+	- Find minimum value in right child of node
+- Copy contents of inorder successor to node and delete successor
+- Predecessor can also be used
+
+##### Recursive Method
+Base Case: Tree is empty
+Recursive Step: Left and right child are set to recursive call
+###### Steps
+1. Starting at head, search for deletion node recursively
+	1. If deletion value is less than root, recur down left subtree
+	2. If greater, recur down right subtree
+3. If deletion value same as current node value
+	1. If only one child or no child, return that child or null
+	2. If two children, get inorder successor (smallest in right subtree)
+
+##### Iterative Method
+
 
 - Using for various searching sorting
 - Value of left node is always less than parent, right is always greater
