@@ -84,18 +84,26 @@ Recursive Step: Left and right child are set to recursive call
 - Predecessor can also be used
 
 ##### Recursive Method
+###### O(h) time, O(h) space
+- Worst case O(n)
+
 Base Case: Tree is empty
 Recursive Step: Left and right child are set to recursive call
+
 ###### Steps
 1. Starting at head, search for deletion node recursively
 	1. If deletion value is less than root, recur down left subtree
 	2. If greater, recur down right subtree
 3. If deletion value same as current node value
 	1. If only one child or no child, return that child or null
-	2. If two children, get inorder successor (smallest in right subtree)
+	2. If two children, get inorder successor (smallest in right subtree) and set root value to this
+		1. Traverse as far left in right subtree and deepest child is smallest
+	2. Delete inorder successor by calling delete on right subtree with successor value
 
 ##### Iterative Method
 
+- Keep track of parent node of successor to make child of that parent null to delete
+	- Successor will always be leaf node
 
 - Using for various searching sorting
 - Value of left node is always less than parent, right is always greater
