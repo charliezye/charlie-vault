@@ -112,3 +112,9 @@
 ##### 4) FizzBuzz
   1. Done it before
   2. Just add directly, no need to build string then add
+
+##### 5) Middle of Linked List
+1. Perfect example of why writing code for methods is important
+2. NullPointerException
+	1. Be very careful to not put self in situation where referencing instance field or method of a null value 
+	2. If calling next in repeated fashion more than once, always check if current and next are null
