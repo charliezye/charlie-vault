@@ -118,3 +118,4 @@
 2. NullPointerException
 	1. Be very careful to not put self in situation where referencing instance field or method of a null value 
 	2. If calling next in repeated fashion more than once, always check if current and next are null
+
