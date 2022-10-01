@@ -111,9 +111,22 @@ Recursive Step: Left and right child are set to recursive call
 
 #### 4) Other Operations
 
-##### Construction from Preorder Traversal
+##### Construction from Preorder Traversal (All Recursive)
 
-##### Brute Force (Recursive) Method
+##### Brute ForceMethod
+###### O(n<sup>2</sup>) time, O(n) space
+- Go through traversal list and recur to set left and right subtrees
+
+Base Case: If node pointer is null, create new node with data
+Recursive Step: Call on left and right child
+
+###### Steps
+1. If node is null then create new node with given data
+2. If node data is greater than given data, recur on left subtree
+3. If node data less than given data, recur on right subtree
+4. Return node
+
+##### Split Method
 ###### O(n<sup>2</sup>) time, O(n) space
 - Split traversal akin to binary search based on values with respect to root and recur down left/right subtree
 
@@ -135,7 +148,6 @@ Recursive Step: Called on left and right subtrees divided by index found i and l
 	- Left subtree range should be between INT_MIN and current node value
 	- Right subtree between current node value and INT_MAX\
 
-
 - Pass into recursive call: traversal array, current index, current node value, min, and max, and size
 Base case: Reached end of traversal array
 Recursive Step: Called on right and left subtree 
@@ -143,11 +155,24 @@ Recursive Step: Called on right and left subtree
 ###### Steps
 1. Call method passing in INT_MIN, INT_MAX as range values and root values
 	1. This will create the root node
-2. Check 
-3. Create new node and increment current index first
-4. Recur on left subtree (set root.left with call) using previous min and setting max as value of the current node
-5. Recur on right subtree (set root.right with call) setting min as value of current node and using previous max
-6. Return root
+2. If element falls within range
+	1. Create new node and increment current index first
+	2. Recur on left subtree (set root.left with call) using previous min and setting max as value of the current node
+	3. Recur on right subtree (set root.right with call) setting min as value of current node and using previous max
+3. Return root
+
+#### Binary Tree to BST Conversion
+
+##### Basic Implementation
+###### O(n log n) time, O(n) space
+
+1. Create temp array to store [inorder traversal](obsidian://open?vault=Obsidian%20Vault&file=Coding%20Interview%20Notes%2FReview%20Topics%2FData%20Structures%2FTrees%2FGeneral%20%2B%20Binary%20Trees)of tree
+	1. O(n) time
+2. Sort temp array
+	1. With [[Sorting#Quick Sort | heap]]/[[Sorting#Merge Sort | merge]] sort would take O(n log n)
+	2. Can easily do with Arrays.sort for O(n<sup>2</sup>)
+2. Do inorder traversal again and copy array elements to tree nodes one by one
+	1. O(n) time
 
 
 ##### +++
