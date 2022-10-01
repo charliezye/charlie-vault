@@ -109,6 +109,45 @@ Recursive Step: Left and right child are set to recursive call
 	- Can safely replace successor with parent's right child as it is always left child of parent
 	- If no succ, assign parent's right child to successor's right child 
 
+#### 4) Other Operations
+
+##### Construction from Preorder Traversal
+
+##### Brute Force (Recursive) Method
+###### O(n<sup>2</sup>) time, O(n) space
+- Split traversal akin to binary search based on values with respect to root and recur down left/right subtree
+
+- Pass into recursive call: traversal array, current index, low and high as index range of recursive step
+Base Case: Step called on single element (low = high)
+Recursive Step: Called on left and right subtrees divided by index found i and low/high
+
+###### Steps
+1. Construct root from first element
+2. Find index of first element greater than group
+	1. Values between first (root) and this index are left subtree
+	2. Values after index are right subtree
+3. Divide traversal at index i from 2 and recur for left and right
+
+##### Range Method (Recursive)
+###### O(n) time, O(n) space
+- Set a range {min, max} for each node
+- Construct nodes based on where they fall within range
+	- Left subtree range should be between INT_MIN and current node value
+	- Right subtree between current node value and INT_MAX\
+
+
+- Pass into recursive call: traversal array, current index, current node value, min, and max, and size
+Base case: Reached end of traversal array
+Recursive Step: Called on right and left subtree 
+
+###### Steps
+1. Call method passing in INT_MIN, INT_MAX as range values and root values
+	1. This will create the root node
+2. Check 
+3. Create new node and increment current index first
+4. Recur on left subtree (set root.left with call) using previous min and setting max as value of the current node
+5. Recur on right subtree (set root.right with call) setting min as value of current node and using previous max
+6. Return root
 
 
 ##### +++
@@ -133,7 +172,7 @@ Recursive Step: Left and right child are set to recursive call
 4. With self balancing BSTs, operations guaranteed in O(log n time)
 	1. For hash tables O(1) is average time, some are costly O(n<sup>2</sup>)  esp. with table resizing
 5. BST are more memory efficient than hash tables
-	1. Hash function range forces 
+	1. Hash function range forces larger arrays to be made even if not used, not dynamic
 
 ##### Applications
 
