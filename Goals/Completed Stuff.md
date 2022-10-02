@@ -127,3 +127,16 @@
 	3. Use other data structure to sort
 3. Need to study writing basic methods
 4. Sol was O(m^2) and O(m), with heap and binary search could reduce to O(n log n)
+
+##### 7) Two Sum
+1. Did everything almost correct but when solution did not work properly overthought
+2. Did not initially consider that should not look at self so should not put value into hashtable for lookup until after looking up
+3. If doing double access like sum of every pair and want to use hashtable:
+	1. Check against hashtable first then put into table
+	2. This way for each value we are comparing against all values before in an efficient way
+		1. No need to make sure not checking against self, no need to worry about duplicates
+	2. Simply need to make sure that in answer, returning correct index because i when answer is found is technically higher index
+
+##### 8) Add Two Numbers
+1. Solution seems correct at first but when writing code need to make a lot of small adjustments
+	1. Think more through algo before writing out
