@@ -113,7 +113,7 @@ Recursive Step: Left and right child are set to recursive call
 
 ##### Construction from Preorder Traversal (All Recursive)
 
-##### Brute ForceMethod
+##### Brute Force Method
 ###### O(n<sup>2</sup>) time, O(n) space
 - Go through traversal list and recur to set left and right subtrees
 
@@ -160,6 +160,26 @@ Recursive Step: Called on right and left subtree
 	2. Recur on left subtree (set root.left with call) using previous min and setting max as value of the current node
 	3. Recur on right subtree (set root.right with call) setting min as value of current node and using previous max
 3. Return root
+
+#### Output Sorted Elements of 2 BSTs (Merging)
+
+This does not put into another BST, but into an array or some other output. Could consider this as an inorder traversal if wanting to reconstruct as BST.
+
+##### Iterative Inorder Traversal (Limited Space)
+###### O(m+n) time, O(h<sub>1</sub>+h<sub>2</sub>)
+- Use 2 auxiliary stacks, one for each of the 2 BSTs
+- Whenever we get a smaller element from any of the trees, we print it
+	- If greater, push back to stack for next iteration
+
+###### Steps
+[Inorder traverse](obsidian://open?vault=Obsidian%20Vault&file=Coding%20Interview%20Notes%2FReview%20Topics%2FData%20Structures%2FTrees%2FGeneral%20%2B%20Binary%20Trees)both BSTs with following steps until no more nodes in trees or in stacks
+1. If either BST is empty output should be inorder traversal of other BST
+2. Push from root iterating down left subtree nodes into each stack
+3. If null node is found and either stack is empty, one tree is exhausted
+	1. Output inorder elements of other BST 
+4. Pop an element from each stack and compare
+	1. Whichever element is smaller, output and iterate down to its right subtree
+	2. Re-push the larger element from other BST back onto stack
 
 #### Binary Tree to BST Conversion
 
