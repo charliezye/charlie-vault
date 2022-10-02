@@ -140,3 +140,6 @@
 ##### 8) Add Two Numbers
 1. Solution seems correct at first but when writing code need to make a lot of small adjustments
 	1. Think more through algo before writing out
+2. Failed submission twice because of small mistakes (forget sections of code)
+	1. Consider edge cases one by one running example through code written
+2. Could have avoided head null checks by adding empty node in front and returning next
