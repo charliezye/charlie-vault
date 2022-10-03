@@ -83,6 +83,10 @@
 4. Can use Math.max(i,j) when changing max rather than using operators
 5. Use i++ operator within functions if going to be written on next line anyways
 
+##### 1578. Minimum Time to Make Rope Colorful
+
+
+
 ---
 ---
 
