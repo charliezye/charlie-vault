@@ -123,3 +123,6 @@
 - WHERE will ignore null values if compared, even if using <> comparison
 	- Use IFNULL(column, \<valid val\>) to account for this
 
+###### 183. Customers Who Never Order
+- Make sure to double check return values/column name in example
+- Make sure selecting correct fields
