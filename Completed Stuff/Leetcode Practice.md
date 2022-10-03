@@ -1,73 +1,3 @@
-## Study Topics Completed
-
-----------------------------------------------------------------
-
-### Data Structures:
-
-1) Linked Lists
- - [x] 1. Notes ✅ 2022-09-26
- - [ ] 2. Implementation Practice
-2) Trees, Tries, & Graphs
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-3) Stacks & Queues
-  - [x] 1. Notes (DONE) ✅ 2022-09-26
-  - [ ] 2. Implementation Practice
-4) Heaps
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-5) Vectors/ArrayLists
-  - [x] 1. Notes (DONE) ✅ 2022-09-26
-  - [ ] 2. Implementation Practice
-6) Hash Tables
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-
-----------------------------------------------------------------
-
-### Algorithms:
-
-1) BFS
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-2) DFS
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-3) Binary Search
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-4) Merge Sort
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-5) Quick Sort
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-
-----------------------------------------------------------------
-
-### Concepts:
-
-1) Bit Manipulation
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-2) Memory (Stack vs) Heap)
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-3) Recursion
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-4) Dynamic Programming
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-5) Big O Time & Space
-  - [ ] 1. Notes (DONE)
-  - [ ] 2. Implementation Practice
-6) Generics 
-  - [ ] 1. Notes
-  - [ ] 2. Implementation Practice
-
-----------------------------------------------------------------
-----------------------------------------------------------------
 
 ## Leetcode Practice Problems Completed
 
@@ -153,6 +83,9 @@
 4. Can use Math.max(i,j) when changing max rather than using operators
 5. Use i++ operator within functions if going to be written on next line anyways
 
+---
+---
+
 #### Study Plans
 
 ##### Programming Skills II
@@ -166,4 +99,27 @@
 	- Checking needle goes after 
 - If want to run operation at end of array/string without running outside of loop can check if iterator equal to last index
 - Can add AND/OR operators within for loop statement next to i \< length
-- 
+
+---
+
+##### Dynamic Programming I
+###### 509. Fibonacci Number
+- First time ran failed as did not account for edge/base cases again
+
+###### 1137. N-th Tribonacci Number
+- Overthought how large array needed to be (still only n+1 size needed)
+
+---
+
+##### SQL I
+
+###### 595. Big Countries
+- Fucked it using AND instead of OR, read problem more carefully
+
+###### 1757. Recyclable and Low Fat Products
+- Ezpz
+
+###### 584. Find Customer Referee
+- WHERE will ignore null values if compared, even if using <> comparison
+	- Use IFNULL(column, \<valid val\>) to account for this
+
