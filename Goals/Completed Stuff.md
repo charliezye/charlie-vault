@@ -143,3 +143,13 @@
 2. Failed submission twice because of small mistakes (forget sections of code)
 	1. Consider edge cases one by one running example through code written
 2. Could have avoided head null checks by adding empty node in front and returning next
+
+##### 9) Longest Substring
+1. Had right idea to use a map here rather than set, should have stored index as I initially thought
+	1. Actually did not need to store indexes could still have used set!!
+2. Also had right idea for two pointers
+	1. Should have considered early on if I needed to actually store substring
+		1. If not should have further considered if I just need to store two integers, which was the case
+4. Can use Math.max(i,j) when changing max rather than using operators
+5. Use i++ operator within functions if going to be written on next line anyways
+	1. i.e. 
