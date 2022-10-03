@@ -152,4 +152,15 @@
 		1. If not should have further considered if I just need to store two integers, which was the case
 4. Can use Math.max(i,j) when changing max rather than using operators
 5. Use i++ operator within functions if going to be written on next line anyways
-	1. i.e. 
+
+#### Study Plans
+
+##### Programming Skills II
+###### 896. Monotonic Array
+- Easy does it, only critique is making sure if checking index i and i+ or -1 I don't index past beg/end of array
+- Also don't feel bad about using two var to check if it will make it easier
+
+###### 28. Index of First Occurrence
+- Missed two edge cases:
+	- Needle larger than haystack (index out of bounds)
+	- Checking needle goes after 
