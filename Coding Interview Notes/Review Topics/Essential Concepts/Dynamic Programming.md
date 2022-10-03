@@ -72,6 +72,12 @@ Memoization
 	1. If not there, return base case or recursively call fib(n-1) + fib(n-2)
 	2. Else return from lookup table
 
+Tabulation
+1. Init lookup table to size n+1
+2. Set base cases at 0 and 1 index of lookup
+3. Iteratively build up using table[n] = table[n-1] + table[n-2]
+4. Return value at n
+
 ##### HOW TO PICK
 1. Do all subproblems need to be solved?
 
@@ -82,3 +88,8 @@ Use tabulation, more space efficient and slightly faster.
 Use memoization, lazy solving so will compute less.
 
 ##### 2) Optimal Substructure
+
+- This property means the **optimal solution** can be obtained using the **optimal solution to its subproblems** rather than trying **every possible way** to solve the subproblems
+
+###### Example: Shortest Path
+- If a node x lies in the shortest path from a source node **U** to destination node **V** then the shortest path from **U** to **V** is a combination of the shortest path from **U** to **X** and the shortest path from **X** to **V**
