@@ -164,3 +164,6 @@
 - Missed two edge cases:
 	- Needle larger than haystack (index out of bounds)
 	- Checking needle goes after 
+- If want to run operation at end of array/string without running outside of loop can check if iterator equal to last index
+- Can add AND/OR operators within for loop statement next to i \< length
+- 
