@@ -133,3 +133,19 @@
 ###### 183. Customers Who Never Order
 - Make sure to double check return values/column name in example
 - Make sure selecting correct fields
+
+##### Data Structure II
+
+###### 136. Single Number
+- Bit manipulation, easy but didn't know wtf I was doing
+
+###### 169. Majority Element
+- Panicked, didn't know where to start
+- Didn't see clever solution of knowing must have 2 consecutive same number and must have more consecutive than any other if greater than half
+
+###### 15. Three Sum
+- Nested arraylist can just have list inside
+- To use set iteration:
+	- Iterator itr = set.iterator()
+	- while(itr.hasNext())
+	- itr.next()
