@@ -84,7 +84,10 @@
 5. Use i++ operator within functions if going to be written on next line anyways
 
 ##### 1578. Minimum Time to Make Rope Colorful
-
+1. Overthought the hell out of the problem which threw me completely off track
+2. Slightly more complex solution than needed
+	1. Iterating comparing 2 at a time instead of just getting sum of all but highest in group
+2. Better when comparing pairs to compare to one behind and increment by 1
 
 
 ---
