@@ -49,8 +49,45 @@ Table_1 JOIN Table_2 ON Table_1.table_1_field = Table_2.table_2_field
 - Used in string as wildcards
 - % is wildcard of any length, _ is wildcard length one char
 
-###### CASE WHEN \<condition\> THEN __ ELSE __ END
+###### CASE
+```
+CASE 
+WHEN <condition> THEN <if true> ELSE <if false>
+WHEN <condition> THEN <if true> ELSE <if false>
+...
+END
+```
 - In place of IF statement
+- Great for doing multiple updates in columns based on separate conditions in single statement
 
-###### IF(\<condition\>, if true;, if false)
-- 
+###### IF
+```
+IF(<condition>, <if true>, <if false>)
+```
+
+###### DELETE
+
+```
+DELETE FROM <table_name> WHERE <condition>
+```
+
+###### SELECT TOP
+- Several Options
+
+SQL Server
+```
+SELECT TOP 3 * FROM Table;
+```
+MySQL
+```
+SELECT * FROM Table  
+LIMIT 3
+```
+
+###### UPDATE
+
+```
+UPDATE _table_name_  
+SET _column1_ = _value1_, _column2_ = _value2_, ...  
+WHERE _condition_;
+```

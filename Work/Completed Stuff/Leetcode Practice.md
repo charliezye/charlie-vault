@@ -107,6 +107,9 @@
 - If want to run operation at end of array/string without running outside of loop can check if iterator equal to last index
 - Can add AND/OR operators within for loop statement next to i \< length
 
+###### 110. Balanced Binary Tree
+- Need to review how to code algorithms like height
+
 ---
 
 ##### Dynamic Programming I
@@ -136,8 +139,15 @@
 
 ###### 1873. Calculate Special Bonus
 - Can use % instead of MOD
-- Can use '%' in string as 
+- Can use '%' in string as wildcard or '\_'
 - Can use CASE WHEN __ THEN __ ELSE __ END
+
+###### 196. Delete Duplicate Emails
+- Misread problem
+- Can compare to own table with two references to it in where
+
+###### 627. Swap Salary
+- Learned how to use update and CASE in update
 
 ##### Data Structure II
 
