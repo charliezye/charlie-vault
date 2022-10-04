@@ -149,3 +149,5 @@
 	- Iterator itr = set.iterator()
 	- while(itr.hasNext())
 	- itr.next()
+- On right track with picking first two, but wrong about searching for third
+	- Could have just picked then did internal loop for third
