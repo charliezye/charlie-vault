@@ -134,6 +134,11 @@
 - Make sure to double check return values/column name in example
 - Make sure selecting correct fields
 
+###### 1873. Calculate Special Bonus
+- Can use % instead of MOD
+- Can use '%' in string as 
+- Can use CASE WHEN __ THEN __ ELSE __ END
+
 ##### Data Structure II
 
 ###### 136. Single Number

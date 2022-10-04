@@ -45,5 +45,12 @@ Table_1 JOIN Table_2 ON Table_1.table_1_field = Table_2.table_2_field
 	- Most useful when using comparison with NOT and nulls may exist
 		- e.g. if checking if id <> 1, change null to 0 and will give null as well
 
+###### % and _
+- Used in string as wildcards
+- % is wildcard of any length, _ is wildcard length one char
 
+###### CASE WHEN \<condition\> THEN __ ELSE __ END
+- In place of IF statement
 
+###### IF(\<condition\>, if true;, if false)
+- 
