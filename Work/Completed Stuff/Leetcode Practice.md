@@ -89,6 +89,10 @@
 	1. Iterating comparing 2 at a time instead of just getting sum of all but highest in group
 2. Better when comparing pairs to compare to one behind and increment by 1
 
+##### 91. Decode Ways
+- Code was heavy so confusing
+- Missed one detail of algorithm in that if have >2, prev value would still change, so not quite fibonacci
+- Got flustered and thought had done completely wrong when almost had most optimal solution
 
 ---
 ---
