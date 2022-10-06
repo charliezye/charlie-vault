@@ -21,8 +21,6 @@
 	- Passionate about education and underserved communities because I went to lower-income schools growing up and experienced a lot of the difficulties there
 	- Plan to find ways in my free time to contribute to open-source social good apps and just be involved in my community
 - Love a good technical challenge and the problem-solving process, exploring and learning about new technologies, balancing use of industry standards and new innovative options
-	- Flutter for our startup MVP was a great example of that
-		- Of course wanted to move to native but was a great new SDK to learn and work with
 	- Considering what my vision would be for IIoT at your company was a great problem-solving goal for me
 		- Worked on it the entire day after I spoke with Colin
 	- Have always sought to work with new tech stacks, many of the jobs I took and projects I worked on I had not worked in those languages beforehand
@@ -67,7 +65,7 @@
 5. **Knowledge about hosting and deploying full-stack scalable application on AWS, start-up mentality** 
 
 ###### Denning T&M and Ware2Go Capstone Project
-1. Exposure to start-up mentality, emergent technologies
+1. **Exposure to start-up mentality, emergent technologies**
 	1. Taught the importance of platforms in today's environment whether in B2B, B2C, C2C and possibilities with data collected
 	2. Fully focused around building innovative technologies, many other cohort members I remain in contact with work in IOT and internal startup type roles
 		1. Georgia Pacific, Siemens, Southwire, Caterpillar a few manufacturing focused companies that are corporate partners I've touched base with  in the past, have contacts at most
@@ -77,28 +75,26 @@
 
 ###### Boeing
 1. Just adjusting to working in a remote setting and surprisingly a very fast-paced environment
-2. Full-stack development at a very fast rate, within first few weeks thrown into project with 3 weeks to build, deploy and then continue to maintain 
+2. **Full-stack development at a very fast rate, within first few weeks thrown into project with 3 weeks to build, deploy and then continue to maintain** 
 3. Internal communication issues
 	1. Internal clients that had not heard about the application until after we had built it and had a lot of concerns/issues
 	2. Big company internal conflicts/politics
 
-
-
 ###### Angel Oak
-1. Importance of good company culture and team members
+1. **Importance of good company culture and team members**
 	1. Smaller IT team, lots of other veterans there
 	2. Everyone was very helpful, collaborative, future-focused
-2. Integrating API into a larger pipeline and working with a large existing codebase
+2. **Integrating API into a larger pipeline, working with Azure solutions (Functions, blob storage, etc.) and working with a large existing codebase**
 3. Machine learning in practice, OCR, etc.
 4. Modularization and importance of Test Driven Development
 
 ###### Military
 1. Discipline and poise
 2. Leadership and prioritization skills
-3. Accountability and initiative
+3. **Accountability and initiative**
 	1. Taking responsibility for my mistakes and that of my soldiers
-	2. Initiative in building future of unit as a younger member
-		1. Overcoming complacency and apathy
+	2. **Overcoming complacency and apathy
+	3. Initiative in building future of unit as a younger member**
 		2. Leading/assisting in campaigns for recruitment and marketing 
 4. Again, adapting to changes in orders and difficult communication quickly
 	1. Make it happen mentality
@@ -295,6 +291,12 @@ Would love to hear more about your experience at Rittal and what inspired you to
 	- Do they mainly only work on VibePro or are they also involved with OptiPro?
 	- Mainly curious if they will be providing machine learning solutions
 
+###### Brian Davis
+- Co-ceo
+- UGA grad
+###### Benjamin Nations
+- Co-ceo
+- Alabama grad
 
 #### Culture Fit Questions
 
