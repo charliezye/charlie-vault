@@ -14,24 +14,31 @@
 #### Important Talking Points
 
 - I'm a local homegrown guy, born and raised in Athens, planning to marry my high school sweetheart, lived in Atlanta and moved back home, have three dogs, passionate about family and living a balanced lifestyle
+	- Parents have researched genetics at UGA for 30+ years
+	- Family has always imparted idea of loyalty to good management and working my way up in a company that is a good culture fit for me, staying dedicated to a field and fostering expertise early on
 - Always tried to be active in my community, played sports growing up, joined community organizations at the courthouse and volunteer and advocacy orgs around town
 	- Found ways to stay involved in Atlanta with building apps to help startups and organizing teaching CS to refugee kids
 	- Passionate about education and underserved communities because I went to lower-income schools growing up and experienced a lot of the difficulties there
 	- Plan to find ways in my free time to contribute to open-source social good apps and just be involved in my community
-- Love a good technical challenge, exploring and learning about new technologies, balancing use of industry standards and new innovative options
+- Love a good technical challenge and the problem-solving process, exploring and learning about new technologies, balancing use of industry standards and new innovative options
 	- Flutter for our startup MVP was a great example of that
 		- Of course wanted to move to native but was a great new SDK to learn and work with
+	- Considering what my vision would be for IIoT at your company was a great problem-solving goal for me
+		- Worked on it the entire day after I spoke with Colin
 	- Have always sought to work with new tech stacks, many of the jobs I took and projects I worked on I had not worked in those languages beforehand
 		- Took machine learning at university AFTER using techniques at Equifax
-	- Want to stay current - may be a mark of a young developer but I am far from going through the motions and working only with what is comfortable for m
+	- Want to stay current - may be a mark of a young developer but I am far from going through the motions and working only with what is comfortable for me
 - Aspirations have always been to build my development skills/experience and eventually move into a technical focused management role
 	- Best feeling for me is real ownership of anything I work with
 		- I take it personally sometimes for better or worse but always want to look out for my fellow employees and customers
 		- Becoming an expert in my craft and understanding larger vision, priorities and goals in an emergent tech industry
+		- Care about working closely with clients and making sure my work is positively impacting them
 	- Applied to management minor in first year of university
 		- Was hoping to pursue an MBA at some point
 		- Waited to pursue graduate degree because ready to enter the workforce and wanted to have a better idea of where to focus my studies
 	- Looked to start my own company but startups are a difficult market to enter for sure, lot of other pressures outside of just building solutions
+- Brother worked for 4 years at Exxon Mobile doing mechanical engineering and data analytics in their plants
+	- Close friend in Army unit worked at Southwire and currently works at Taymor which works in wire length and camera vision inspection
 
 ###### Bits of Good
 1. Directing product lifecycles
@@ -69,7 +76,13 @@
 	1. Exposure to B2B mentality within startup and with various customers w/ different needs
 
 ###### Boeing
-1. Just working in a remote setting and 
+1. Just adjusting to working in a remote setting and surprisingly a very fast-paced environment
+2. Full-stack development at a very fast rate, within first few weeks thrown into project with 3 weeks to build, deploy and then continue to maintain 
+3. Internal communication issues
+	1. Internal clients that had not heard about the application until after we had built it and had a lot of concerns/issues
+	2. Big company internal conflicts/politics
+
+
 
 ###### Angel Oak
 1. Importance of good company culture and team members
@@ -271,22 +284,34 @@ How does it accomplish this?
 
 #### Questions about John Finnegan 
 
+Would love to hear more about your experience at Rittal and what inspired you to come to B&D to head up their IIoT solutions, saw you had over 20 years of experience there
+
+- Seems like a great company you had built yourself from the ground up in, have a lot of admiration for that as someone who has tried to navigate college and life independently
+- Read that you had responsibility for "entire US industrial market", including emergent software
+- Is this a competitor?
+	- Saw they mainly work in climate control and their IoT offerings are in that so curious if you wanted greater breadth in IIoT with general B2B platform
+- What insights did you bring and what do you think is necessary for success in the IoT field?
+- Acquisition of GTI predictive
+	- Do they mainly only work on VibePro or are they also involved with OptiPro?
+	- Mainly curious if they will be providing machine learning solutions
+
+
 #### Culture Fit Questions
-- Would love to hear more about your experience at Rittal and what inspired you to come to B&D to head up their IIoT solutions, saw you had over 20 years of experience there
-	- Read that you had responsibility for "entire US industrial market", including emergent software
-	- What insights did you bring and what do you think is necessary for success in the IoT field?
-	- Acquisition of GTI predictive
-		- Do they mainly only work on VibePro or are they also involved with OptiPro?
-		- 
+
 - Who will I primarily be communicating with to meet needs (who is my top priority client)
 	- I assume I am building a product to the specifications of the companies buying it and your company management
 	- How will I be assisted in developing management vision into product that also meets needs of customers? 
+	- I did take a look at Yonder Group and had a very positive outlook on them based on what I read on them and their general company outlook
 	- Do you anticipate any particular vision concerns/conflicts that may arise?
 - Work-life balance?
 	- I know this is a very involved role and I could expect to work over 40 hours a week but want to clarify your expectations and measurements of success
 	- This may center around development timelines and deliverables but want to know what your corporate work culture is typically like
+- I plan to always put my family first
+	- Hoping to get married and have children within next 2-3 years
+	- Flexibility/time off to help with this is important to me
 - What's your company's 5 year, 10 year vision?
 	- What's your vision for IIoT?
+- How does B&D support the local community and contribute to local causes and underserved communities?
 
 ##### Industries/Products B&D Serve
 "Bearing Supplier"
