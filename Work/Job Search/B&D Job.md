@@ -1,6 +1,22 @@
 # B&D Industrial Job Notes
 
-- IIOT: Industrial Internet of Things
+### About Me
+
+#### Important Talking Points
+
+###### Bits of Good
+1. Directing product lifestyles
+2. Communication with non-technical clients
+	1. Translation of needs to features
+3. Hiring experience and vision of who I'd want to be a part of my team long-term
+	- Obviously technical skills are important, but I believe I have had ability to discern whether candidates have strong soft skills
+		1. Enthusiasm, adaptability, pride/ownership of work
+		2. Open to criticism and commitment to learning and self-improvement
+		3. Vision for their future and future of the company
+		4. Understanding and research of industry and company
+		5. Understanding of best practices in architecture, documentation
+	- Overall always commitment to a good culture fit
+4. Communicating with ex
 
 #### Optipro
 - Gathers data in 5 most common coding languages and combines into cohesive dashboard
@@ -57,9 +73,11 @@ How old is the OptiPro product now?
 	- With regards to implementation decisions leading to intended outcomes
 	- With regards to internal application architecture/team decisions
 
-###### Now: Unstructured set of individual codes/scripts
+###### What it is now:
 
-###### What does this entail?
+Unstructured set of individual codes/scripts
+
+ **What does this entail?**
 - Saw on rebranding press release that it is labeled as cloud-based, on-premises, or hybrid-cloud platform
 	- Are there already some cloud capabilities? 
 
@@ -76,13 +94,6 @@ How old is the OptiPro product now?
 - How does your pipeline/architecture look right now?
 	- Django Model View Template (MVT)
 - What's the backend built in?
-	- Java and Node.js are generally faster than Python
-		- During compilation are generally faster due to not dynamic typing
-		- Up to 10x faster
-	- Java has much faster performance
-		- 10x+ less CPU seconds for Java/Node.js vs. Python
-		- On Amazon servers, EC2 pricing is based around compute capacity so this would save a lot of money
-	- These play a big role in scalability as codebase grows
 - Is the goal microservices? API pipelines?
 	- Is there any machine learning you plan to/are already involving?
 
@@ -100,13 +111,9 @@ How old is the OptiPro product now?
 
 ###### Outcome: MVP to launch into marketplace
 
-**Clearly want cloud-based solution**
-- Why was this not originally built on the cloud/with "box" around services?
-	- Was use proprietary at first?
-
 **Why did you choose to create OptiPro as a software solution to sell to other companies?**
 - Will this compete with other SAAS platform solutions in your industry?
-- Any difficulties with adapting to certain machinery or issues selling to companies with proprietary IIOT SAAS? What is the plan to set this application apart?
+- Any difficulties with adapting to certain machinery or issues selling to companies with proprietary IIOT SAAS or is this not really a problem? What sets this application apart?
 - Market analysis?
 
 **What's the scope of this first endeavor? Timeline?**
@@ -118,6 +125,8 @@ How old is the OptiPro product now?
 	- Timeline?
 
 ###### Vision I Present to You
+
+Not to give it all away, but:
 
 1. Device/Actuators
 2. Network Layer
@@ -135,15 +144,14 @@ How old is the OptiPro product now?
 		3. "Data warehouse" to store insightful data
 		5. Data analytics in AWS and in backend to analyze issues/bugs in process
 		6. Caching with Elasticache, Cloudfront, Route 53
-4. Transition to Express Node.JS backend
+4. Whichever backend framework you're using
 	1. All your complex data querying and analytics for data used in visualizations and presentation to users
-	3. Node.js is great for IoT because forces you to build asynchronous I/O
-		1. Programs permit other processing to continue (non-blocking) before data is returned to frontend
-		2. Essentially in sychronous, you tell worker instructions, they leave, finish the work, then come back with the work before starting next set
-		3. Asynchronous has a middle-man called an event handler passing on instructions to multiple workers at once and returning their work, making it very memory efficient
-	4. Already using JS for frontend so just makes sense
+	2. Django most likely, consider Java and NodeJS as well
 6. Angular Frontend for user applications/touchpoints
-7. Long term: Machine learning to customize functionalities, analyze devices, and extract big data trends across customers
+7. Long term: 
+	1. Machine learning to customize functionalities, analyze devices, and extract big data trends across customers
+	2. Not sure if this is applicable, but use of smart phones, smart watches or other wearables for workers
+		1. These have a ton of sensors built in and I've worked with them between Ubiquitous Computing and work w/ Ware2Go
 
 Why is this plan important?
 1. Maintainability
@@ -155,8 +163,18 @@ Why is this plan important?
 How does it accomplish this?
 - Microservices, modularization
 - Clear division of labor among steps and prioritization of important data
+- No storage of parts that are not useful
 
 ###### Backend Architecture Examination
+
+- Java and Node.js are generally faster than Python
+	- During compilation are generally faster due to not dynamic typing
+	- Up to 10x faster
+- Java has much faster performance
+	- 10x+ less CPU seconds for Java/Node.js vs. Python
+	- On Amazon servers, EC2 pricing is based around compute capacity so this would save a lot of money
+- These play a big role in scalability as codebase grows
+
 1. Django MVT
 	- Like MVC but template instead of view and view instead of controller
 	1. Model
@@ -169,11 +187,16 @@ How does it accomplish this?
 		1. Static parts of HTML and dynamic content
 		2. Equivalent of view in MVC
 
+
 #### Culture Fit Questions
 - Who will I primarily be communicating with to meet needs (who is my top priority client)
 	- I assume I am building a product to the specifications of the companies buying it and your company management
 	- How will I be assisted in developing management vision into product that also meets needs of customers? 
 	- Do you anticipate any particular vision concerns/conflicts that may arise?
+- Work-life balance?
+	- I know this is a very involved role and I could expect to work over 40 hours a week but want to clarify your expectations and measurements of success
+	- This may center around development timelines and deliverables but want to know what your corporate work culture is typically like
+- 
 
 ##### Industries/Products B&D Serve
 "Bearing Supplier"
