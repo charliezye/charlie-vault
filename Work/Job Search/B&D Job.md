@@ -3,20 +3,63 @@
 ### About Me
 
 #### Important Talking Points
+- Aspirations have always been to build my development skills/experience and eventually move into a technical focused management role
+	- Wish to be an ex
+	- Passionate about feeling ownership of any product I work with
+	- Applied to management minor in first year of university
+		- Was hoping to pursue an MBA at some point
+		- Waited to pursue graduate degree because ready to enter the workforce and wanted to have a better idea of where to focus my studies
+	- Looked to start my own company but startups are a difficult market to enter for sure, lot of other pressures outside of just building solutions
 
 ###### Bits of Good
-1. Directing product lifestyles
+1. Directing product lifecycles
 2. Communication with non-technical clients
 	1. Translation of needs to features
+2. PM Experience
+	1. Agile, Kanban, Scrum, we settled on 
+	2. Worked with JIRA on project management with GT transition of HR/payroll software from PeopleSoft to Workday for 9 months early in college
 3. Hiring experience and vision of who I'd want to be a part of my team long-term
 	- Obviously technical skills are important, but I believe I have had ability to discern whether candidates have strong soft skills
 		1. Enthusiasm, adaptability, pride/ownership of work
 		2. Open to criticism and commitment to learning and self-improvement
 		3. Vision for their future and future of the company
-		4. Understanding and research of industry and company
-		5. Understanding of best practices in architecture, documentation
+		4. Someone I can trust to properly communicate about their work to non-technical users, very important for others to help with issues
+		5. Understanding and research of industry and company
+		6. Understanding of best practices in architecture, documentation
 	- Overall always commitment to a good culture fit
-4. Communicating with ex
+4. **Balance of prioritization and communication between external customers, internal management, and development teams**
+
+###### Startup
+1. Ownership of product
+	1. Making decisions for the long-term sustained success and short-term steps to break into market
+2. Adaptability with lots of quick pivots to architecture and design based on target market analysis, feedback from users, changes in direction
+3. AWS Experience, strong back-end focus
+4. Lot of research around architecture and scalability with big data needs
+5. **Knowledge about hosting and deploying full-stack scalable application on AWS, start-up mentality** 
+
+###### Denning T&M and Ware2Go Capstone Project
+1. Exposure to start-up mentality, emergent technologies
+	1. Fully focused around building innovative technologies, many other cohort members I remain in contact with work in IOT and internal startup type roles
+		1. Georgia Pacific, Siemens, Southwire, Caterpillar a few manufacturing focused companies that are corporate partners I've touched base with  in the past, have contacts at most
+	2. Legal/business/development considerations and concerns
+3. Worked on B2B project with wearable smart glasses focused on increasing efficiency and decreasing errors
+	1. Exposure to B2B mentality within startup and with various customers w/ different needs
+
+###### Military
+1. Discipline and poise
+2. Leadership and prioritization skills 
+3. Initiative in assisting with building future of unit
+	1. Leading/assisting in campaigns for recruitment and marketing 
+4. Again, adapting to changes in orders and difficult communication quickly
+	1. Make it happen mentality
+	2. Must make quick decisions and execute at high efficiency
+		1. "Hesitation gets people killed"
+	3. Sometimes you do things that are unpleasant but need to get done
+
+###### Cloud Security Concerns
+- Some cybersecurity knowledge from cybersecurity club at GT
+- Also knowledge from working on authentication and security at startup
+- Contact who I still regularly speak with and consulted for startup security concerns at Bank of America who has a **master's in cybersecurity** and taught me Angular at Boeing
 
 #### Optipro
 - Gathers data in 5 most common coding languages and combines into cohesive dashboard
@@ -125,6 +168,8 @@ Unstructured set of individual codes/scripts
 	- Timeline?
 
 ###### Vision I Present to You
+
+Overall, vision is to provide a secure, scalable, efficient, and comprehensive product that satisfies customer needs and 
 
 Not to give it all away, but:
 
