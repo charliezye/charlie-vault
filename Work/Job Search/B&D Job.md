@@ -62,10 +62,8 @@ How old is the OptiPro product now?
 ###### What does this entail?
 - Is the company Blue Yonder or Yonder Agency?
 	- 6 employees on LinkedIn
-
-**Is this built on Blue Yonder's Luminate Platform or completely custom built?**
-- Saw it is a proprietary solution 
-- Also saw on rebranding press release that it is labeled as cloud-based, on-premises, or hybrid-cloud platform
+- 
+- Saw on rebranding press release that it is labeled as cloud-based, on-premises, or hybrid-cloud platform
 	- Are there already some cloud capabilities? 
 
 **Currently sell/install this software with 4-5 hours**
@@ -79,6 +77,13 @@ How old is the OptiPro product now?
 	- Is there already internal documentation on the application?
 - How does your pipeline/architecture look right now?
 	- MVC, 
+- What's the backend built in?
+	- Java and Node.js are generally faster than Python
+		- Up to 10x faster
+	- Java has much faster performance
+		- 10x+ less CPU seconds for Java/Node.js vs. Python
+		- On Amazon servers, EC2 pricing is based around compute capacity so this would save a lot of money
+		- 
 - Is the goal microservices? API pipelines?
 	- Is there any machine learning you plan to/are already involving?
 
