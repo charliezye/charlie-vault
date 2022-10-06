@@ -29,7 +29,13 @@ How old is the OptiPro product now?
 
 #### Questions about OptiPro
 
-What kind of production machines interacting with?
+**What kind of production machines interacting with?**
+- Listed by OptiPro press release
+	- Industrial Measuring Devices
+	- Microcomponents
+	- Electrical products
+	- Identification products
+	- Industrial weighing
 - Programmable Logic Controller (PLC)
 	- Ladder logic
 - Process Automation Controller (PAC)
@@ -37,12 +43,13 @@ What kind of production machines interacting with?
 	- Decentralized, able to connect to remote input/output (I/O) and other PACs
 - Industrial PC
 	- OS like Windows/Linux
-What languages do production machines use? 
+
+**What languages do production machines use?** 
 - C, C++, Python, Java?
 - G-Code, M-Code, CAM?
 - Proprietary?
 
-##### What do you want optipro to become?
+##### What do you want OptiPro to become?
 
 - What's your long-term vision for the product?
 - What's your vision for my involvement and long-term role with the product/future products at your company?
@@ -53,8 +60,13 @@ What languages do production machines use?
 ###### Now: Unstructured set of individual codes/scripts
 
 ###### What does this entail?
+- Is the company Blue Yonder or Yonder Agency?
+	- 6 employees on LinkedIn
 
-**Is this built on Blue Yonder's Luminate Platform or custom built?**
+**Is this built on Blue Yonder's Luminate Platform or completely custom built?**
+- Saw it is a proprietary solution 
+- Also saw on rebranding press release that it is labeled as cloud-based, on-premises, or hybrid-cloud platform
+	- Are there already some cloud capabilities? 
 
 **Currently sell/install this software with 4-5 hours**
 - How involved is this process?
@@ -63,6 +75,8 @@ What languages do production machines use?
 
 **Script chosen based on device to aggregate code/data?**
 - How involved is this process? How much code is in each script?
+- How has Blue Yonder set you up for transitional success?
+	- Is there already internal documentation on the application?
 - How does your pipeline/architecture look right now?
 	- MVC, 
 - Is the goal microservices? API pipelines?
@@ -106,7 +120,8 @@ What languages do production machines use?
 #### Culture Fit Questions
 - Who will I primarily be communicating with to meet needs (who is my top priority client)
 	- I assume I am building a product to the specifications of the companies buying it and your company management
-	- How will I be assisted in conforming management vision 
+	- How will I be assisted in developing management vision into product that also meets needs of customers? 
+	- Do you anticipate any particular vision concerns/conflicts that may arise?
 
 ##### Industries/Products B&D Serve
 "Bearing Supplier"
