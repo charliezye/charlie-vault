@@ -125,7 +125,12 @@ How old is the OptiPro product now?
 **Vision I'd Present to You**
 1. AWS Cloud Hosting Solution
 2. Angular Frontend
-3. Transition to Node.JS backend
+3. Transition to Express Node.JS backend
+	1. Great for IoT because forces you to build asynchronous I/O
+		1. Programs permit other processing to continue (non-blocking) before data is returned to frontend
+		2. Essentially in sychronous, you tell worker instructions, they leave, finish the work, then come back with the work before starting next set
+		3. Asynchronous has a middle-man called an event handler passing on instructions to multiple workers at once and returning their work, making it very memory efficient
+	2. Already using JS for frontend so just makes sense
 
 - [Trademark pending](https://alter.com/trademarks/optipro-97542393)
 	- August 10, 2022
