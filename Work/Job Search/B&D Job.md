@@ -1,3 +1,4 @@
+# B&D Industrial Job Notes
 
 - IIOT: Industrial Internet of Things
 
@@ -7,6 +8,38 @@
 How old is the OptiPro product now?
 - Saw that TM was filed in August
 
+##### About the Application
+###### Steps
+1. Connect IIOT devices
+2. Gather and translate data into one unified dashboard
+	1. Internet browser
+2. Optimize data into one user interface with various views
+	1. Data visualization techniques
+2. Custom reporting/alerts
+	1. Power BI, Tableau, Google Data Studio''
+
+###### Features:
+1. Remote Monitoring from Any Internet Connection
+2. Optimize Throughput with Smarter Resource Allocation
+3. Efficiently Capture Data from Multiple Devices
+4. Simple Dashboard and Graphics
+5. Export Data easily for Advanced Analysis
+
+>>Faster throughput, higher efficiency, reduced operational costs, and less waste
+
+#### Questions about OptiPro
+
+What kind of production machines?
+What languages do production machines use?
+- C, C++
+- Programmable Logic Controller (PLC)
+	- Ladder logic
+- Process Automation Controller (PAC)
+	- FPGA
+	- Decentralized, able to connect to remote input/output (I/O) and other PACs
+- Industrial PC
+	- OS like Windows/Linux
+Why did 
 
 ##### What do you want optipro to become?
 
@@ -37,26 +70,6 @@ How old is the OptiPro product now?
 - [Trademark pending](https://alter.com/trademarks/optipro-97542393)
 	- August 10, 2022
 
-1. Connect IIOT devices
-2. Gather and translate data into one unified dashboard
-	1. Internet browser
-2. Optimize data into one user interface with various views
-	1. Data visualization techniques
-2. Custom reporting/alerts
-	1. Power BI, Tableau, Google Data Studio''
-
-###### Features:
-1. Remote Monitoring from Any Internet Connection
-2. Optimize Throughput with Smarter Resource Allocation
-3. Efficiently Capture Data from Multiple Devices
-4. Simple Dashboard and Graphics
-5. Export Data easily for Advanced Analysis
-
->>Faster throughput, higher efficiency, reduced operational costs, and less waste
-#### Optipro
-
-What languages do production machines use?
-- Scales, meters, etc.
 
 ##### Industries/Products B&D Serve
 "Bearing Supplier"
@@ -80,6 +93,13 @@ What languages do production machines use?
 	>> **screw, drag, and belt conveyors,** as well as bucket elevators
 - MRO Solutions
 	- Maintenance, repair, operations
+	- Bearings
+	- Seals
+	- Belts
+	- Motors
+	- VFDs
+	- Sensors
+	- Gearing
 
 ##### Blue Yonder
 - Mission: 
