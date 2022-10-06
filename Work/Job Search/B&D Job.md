@@ -92,7 +92,6 @@ How old is the OptiPro product now?
 - Is there any caching currently involved with Redis or other frameworks?
 	- Seems like high throughput, want fast response/low latency
 	- Lot of old data to display that doesn't need to be re-queried
-	- Session store
 
 **Measuring Efficiency of App**
 - How has efficiency of application itself been measured internally?
@@ -135,13 +134,14 @@ How old is the OptiPro product now?
 			1. Transform, filter, and aggregate data before sending to data warehouse, e.g. changing formatting
 		3. "Data warehouse" to store insightful data
 		5. Data analytics in AWS and in backend to analyze issues/bugs in process
+		6. Caching with Elasticache, Cloudfront, Route 53
 4. Transition to Express Node.JS backend
 	1. All your complex data querying and analytics for data used in visualizations and presentation to users
-	2. Node.js is great for IoT because forces you to build asynchronous I/O
+	3. Node.js is great for IoT because forces you to build asynchronous I/O
 		1. Programs permit other processing to continue (non-blocking) before data is returned to frontend
 		2. Essentially in sychronous, you tell worker instructions, they leave, finish the work, then come back with the work before starting next set
 		3. Asynchronous has a middle-man called an event handler passing on instructions to multiple workers at once and returning their work, making it very memory efficient
-	3. Already using JS for frontend so just makes sense
+	4. Already using JS for frontend so just makes sense
 6. Angular Frontend for user applications/touchpoints
 7. Long term: Machine learning to customize functionalities, analyze devices, and extract big data trends across customers
 
