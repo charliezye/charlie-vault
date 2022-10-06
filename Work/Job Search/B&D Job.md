@@ -1,11 +1,33 @@
 # B&D Industrial Job Notes
 
+## B&D Core Values
+### TO BE THE BEST AT WHAT WE DO.
+#### OUR **CORE VALUES** DRIVE US TO GO BIG
+- Golden Rule - Treat all others as you want to be treated
+- Own it – The buck stops with me once I get involved
+- Be the best we can be
+- Be Innovative
+- Going above and beyond to serve the customer – “Never see a line”
+
 ### About Me
 
 #### Important Talking Points
+
+- I'm a local homegrown guy, born and raised in Athens, planning to marry my high school sweetheart, lived in Atlanta and moved back home, have three dogs, passionate about family and living a balanced lifestyle
+- Always tried to be active in my community, played sports growing up, joined community organizations at the courthouse and volunteer and advocacy orgs around town
+	- Found ways to stay involved in Atlanta with building apps to help startups and organizing teaching CS to refugee kids
+	- Passionate about education and underserved communities because I went to lower-income schools growing up and experienced a lot of the difficulties there
+	- Plan to find ways in my free time to contribute to open-source social good apps and just be involved in my community
+- Love a good technical challenge, exploring and learning about new technologies, balancing use of industry standards and new innovative options
+	- Flutter for our startup MVP was a great example of that
+		- Of course wanted to move to native but was a great new SDK to learn and work with
+	- Have always sought to work with new tech stacks, many of the jobs I took and projects I worked on I had not worked in those languages beforehand
+		- Took machine learning at university AFTER using techniques at Equifax
+	- Want to stay current - may be a mark of a young developer but I am far from going through the motions and working only with what is comfortable for m
 - Aspirations have always been to build my development skills/experience and eventually move into a technical focused management role
-	- Wish to be an ex
-	- Passionate about feeling ownership of any product I work with
+	- Best feeling for me is real ownership of anything I work with
+		- I take it personally sometimes for better or worse but always want to look out for my fellow employees and customers
+		- Becoming an expert in my craft and understanding larger vision, priorities and goals in an emergent tech industry
 	- Applied to management minor in first year of university
 		- Was hoping to pursue an MBA at some point
 		- Waited to pursue graduate degree because ready to enter the workforce and wanted to have a better idea of where to focus my studies
@@ -39,17 +61,32 @@
 
 ###### Denning T&M and Ware2Go Capstone Project
 1. Exposure to start-up mentality, emergent technologies
-	1. Fully focused around building innovative technologies, many other cohort members I remain in contact with work in IOT and internal startup type roles
+	1. Taught the importance of platforms in today's environment whether in B2B, B2C, C2C and possibilities with data collected
+	2. Fully focused around building innovative technologies, many other cohort members I remain in contact with work in IOT and internal startup type roles
 		1. Georgia Pacific, Siemens, Southwire, Caterpillar a few manufacturing focused companies that are corporate partners I've touched base with  in the past, have contacts at most
-	2. Legal/business/development considerations and concerns
+	3. Legal/business/development considerations and concerns
 3. Worked on B2B project with wearable smart glasses focused on increasing efficiency and decreasing errors
 	1. Exposure to B2B mentality within startup and with various customers w/ different needs
 
+###### Boeing
+1. Just working in a remote setting and 
+
+###### Angel Oak
+1. Importance of good company culture and team members
+	1. Smaller IT team, lots of other veterans there
+	2. Everyone was very helpful, collaborative, future-focused
+2. Integrating API into a larger pipeline and working with a large existing codebase
+3. Machine learning in practice, OCR, etc.
+4. Modularization and importance of Test Driven Development
+
 ###### Military
 1. Discipline and poise
-2. Leadership and prioritization skills 
-3. Initiative in assisting with building future of unit
-	1. Leading/assisting in campaigns for recruitment and marketing 
+2. Leadership and prioritization skills
+3. Accountability and initiative
+	1. Taking responsibility for my mistakes and that of my soldiers
+	2. Initiative in building future of unit as a younger member
+		1. Overcoming complacency and apathy
+		2. Leading/assisting in campaigns for recruitment and marketing 
 4. Again, adapting to changes in orders and difficult communication quickly
 	1. Make it happen mentality
 	2. Must make quick decisions and execute at high efficiency
@@ -169,7 +206,7 @@ Unstructured set of individual codes/scripts
 
 ###### Vision I Present to You
 
-Overall, vision is to provide a secure, scalable, efficient, and comprehensive product that satisfies customer needs and 
+Overall, vision is to provide a secure, scalable, efficient, and comprehensive product that satisfies customer needs and meets management expectations.
 
 Not to give it all away, but:
 
@@ -232,8 +269,15 @@ How does it accomplish this?
 		1. Static parts of HTML and dynamic content
 		2. Equivalent of view in MVC
 
+#### Questions about John Finnegan 
 
 #### Culture Fit Questions
+- Would love to hear more about your experience at Rittal and what inspired you to come to B&D to head up their IIoT solutions, saw you had over 20 years of experience there
+	- Read that you had responsibility for "entire US industrial market", including emergent software
+	- What insights did you bring and what do you think is necessary for success in the IoT field?
+	- Acquisition of GTI predictive
+		- Do they mainly only work on VibePro or are they also involved with OptiPro?
+		- 
 - Who will I primarily be communicating with to meet needs (who is my top priority client)
 	- I assume I am building a product to the specifications of the companies buying it and your company management
 	- How will I be assisted in developing management vision into product that also meets needs of customers? 
@@ -241,7 +285,8 @@ How does it accomplish this?
 - Work-life balance?
 	- I know this is a very involved role and I could expect to work over 40 hours a week but want to clarify your expectations and measurements of success
 	- This may center around development timelines and deliverables but want to know what your corporate work culture is typically like
-- 
+- What's your company's 5 year, 10 year vision?
+	- What's your vision for IIoT?
 
 ##### Industries/Products B&D Serve
 "Bearing Supplier"
