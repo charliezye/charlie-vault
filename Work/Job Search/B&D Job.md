@@ -60,13 +60,11 @@ How old is the OptiPro product now?
 ###### Now: Unstructured set of individual codes/scripts
 
 ###### What does this entail?
-- Is the company Blue Yonder or Yonder Agency?
-	- 6 employees on LinkedIn
-- 
 - Saw on rebranding press release that it is labeled as cloud-based, on-premises, or hybrid-cloud platform
 	- Are there already some cloud capabilities? 
 
 **Currently sell/install this software with 4-5 hours**
+- Who sells/installs? Company employee or Yonder Group?
 - How involved is this process?
 - How much difference between customers, any way to more easily streamline?
 - Is there data your company collects from individual customers that can be used for internal analysis/improvements?
@@ -79,11 +77,16 @@ How old is the OptiPro product now?
 	- MVC, 
 - What's the backend built in?
 	- Java and Node.js are generally faster than Python
+		- During compilation are generally faster due to not dynamic typing
 		- Up to 10x faster
 	- Java has much faster performance
 		- 10x+ less CPU seconds for Java/Node.js vs. Python
 		- On Amazon servers, EC2 pricing is based around compute capacity so this would save a lot of money
-		- 
+	- These play a big role in scalability as codebase grows
+- Java
+	- Lot of big tech industries use java backend
+- Node.js
+	- JS backend is newer but commonly used in newer web applications and smaller companies
 - Is the goal microservices? API pipelines?
 	- Is there any machine learning you plan to/are already involving?
 
