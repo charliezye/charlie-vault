@@ -122,6 +122,11 @@ How old is the OptiPro product now?
 - What plans for working to move away from Blue Yonder and build own team?
 	- Timeline?
 
+**Vision I'd Present to You**
+1. AWS Cloud Hosting Solution
+2. Angular Frontend
+3. Transition to Node.JS backend
+
 - [Trademark pending](https://alter.com/trademarks/optipro-97542393)
 	- August 10, 2022
 
