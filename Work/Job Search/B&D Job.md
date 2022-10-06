@@ -74,7 +74,7 @@ How old is the OptiPro product now?
 - How has Blue Yonder set you up for transitional success?
 	- Is there already internal documentation on the application?
 - How does your pipeline/architecture look right now?
-	- MVC, 
+	- Django Model View Template (MVT)
 - What's the backend built in?
 	- Java and Node.js are generally faster than Python
 		- During compilation are generally faster due to not dynamic typing
@@ -83,10 +83,6 @@ How old is the OptiPro product now?
 		- 10x+ less CPU seconds for Java/Node.js vs. Python
 		- On Amazon servers, EC2 pricing is based around compute capacity so this would save a lot of money
 	- These play a big role in scalability as codebase grows
-- Java
-	- Lot of big tech industries use java backend
-- Node.js
-	- JS backend is newer but commonly used in newer web applications and smaller companies
 - Is the goal microservices? API pipelines?
 	- Is there any machine learning you plan to/are already involving?
 
@@ -122,18 +118,56 @@ How old is the OptiPro product now?
 - What plans for working to move away from Blue Yonder and build own team?
 	- Timeline?
 
-**Vision I'd Present to You**
-1. AWS Cloud Hosting Solution
-2. Angular Frontend
-3. Transition to Express Node.JS backend
-	1. Great for IoT because forces you to build asynchronous I/O
+###### Vision I Present to You
+
+1. Device/Actuators
+2. Network Layer
+	1. Field gateways to pass information from devices to DB
+	2. LPWAN, Cellular, Zigbee?
+3. AWS Cloud Hosting Solution
+	1. Databases:
+		1. "Data lake" for all your raw data from sensors
+			1. Good if need to analyze data against other data before storing
+			2. OR Edge devices 
+				1. Store and process data close to its source, only sending a part of the generated records to the data warehouse on the cloud
+				3. Can save a lot of time/resources otherwise used to send raw data to cloud
+		2. "Cloud gateways" for compression and entry of important information to cloud
+			1. Transform, filter, and aggregate data before sending to data warehouse, e.g. changing formatting
+		3. "Data warehouse" to store insightful data
+		5. Data analytics in AWS and in backend to analyze issues/bugs in process
+4. Transition to Express Node.JS backend
+	1. All your complex data querying and analytics for data used in visualizations and presentation to users
+	2. Node.js is great for IoT because forces you to build asynchronous I/O
 		1. Programs permit other processing to continue (non-blocking) before data is returned to frontend
 		2. Essentially in sychronous, you tell worker instructions, they leave, finish the work, then come back with the work before starting next set
 		3. Asynchronous has a middle-man called an event handler passing on instructions to multiple workers at once and returning their work, making it very memory efficient
-	2. Already using JS for frontend so just makes sense
+	3. Already using JS for frontend so just makes sense
+6. Angular Frontend for user applications/touchpoints
+7. Long term: Machine learning to customize functionalities, analyze devices, and extract big data trends across customers
 
-- [Trademark pending](https://alter.com/trademarks/optipro-97542393)
-	- August 10, 2022
+Why is this plan important?
+1. Maintainability
+2. Scalability
+3. Cost-efficiency
+4. High/quick performance
+5. Interoperability
+6. Security
+How does it accomplish this?
+- Microservices, modularization
+- Clear division of labor among steps and prioritization of important data
+
+###### Backend Architecture Examination
+1. Django MVT
+	- Like MVC but template instead of view and view instead of controller
+	1. Model
+		1. SQL DB
+	2. View
+		1. Takes web requests, returns web response
+		2. Render HTML/CSS/JS into what you see on web page 
+		3. Equivalent of Controller in MVC
+	4. Template
+		1. Static parts of HTML and dynamic content
+		2. Equivalent of view in MVC
 
 #### Culture Fit Questions
 - Who will I primarily be communicating with to meet needs (who is my top priority client)
