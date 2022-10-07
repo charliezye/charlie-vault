@@ -217,7 +217,7 @@ Unstructured set of individual codes/scripts
 
 Overall, vision is to provide a secure, scalable, efficient, and comprehensive product that satisfies customer needs and meets management expectations.
 
-Not to give it all away, but:
+Not to give away the whole farm, but:
 
 1. Device/Actuators
 2. Network Layer
@@ -313,7 +313,8 @@ Would love to hear more about your experience at Rittal and what inspired you to
 	- Flexibility/time off to help with this is important to me
 - What's your company's 5 year, 10 year vision?
 	- What's your vision for IIoT?
-- How does B&D support the local community and contribute to local causes and underserved communities?
+- Read your CSR and glad to read sections on Human Rights and Primum Non Nocere
+	- How does B&D support the local community and contribute to local causes and underserved communities?
 
 ##### Industries/Products B&D Serve
 "Bearing Supplier"
