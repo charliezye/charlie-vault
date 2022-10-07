@@ -90,15 +90,25 @@
 - After extrusion during cabling or after cabling?
 	- I understand there are many wires wrapped
 
-
 **Where would my role come in?**
 - Understand Taymer wants to move to complete OCR/OCV
 	- Possibly overcome issues with threshold/template images right now
 - What has already been attempted/done to address these issues?
-- Am I primarily troubleshooting and traveling to sell/install, or will I be able to focus on the more innovative endeavors?
+- Am I primarily troubleshooting and traveling to sell/install, or will I be able to focus on the more innovative machine learning endeavors?
 	- Have a lot of machine learning experience and experience with OCR
 
 **Future plans for Taymer?**
 - Dot matrix printers?
 - Heard defect mis-identifications are an issue and machine learning has been considered as a solution
 	- Is this a project that may be pursued?
+
+- Lot of flexibility of what to work on
+
+##### Culture Fit
+- Work-life balance?
+- Travel percentage?
+- Challenges/room for growth?
+
+##### Logistics
+- Training in Canada?
+- General communication and what to expect day-to-day
