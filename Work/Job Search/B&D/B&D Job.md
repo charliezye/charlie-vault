@@ -307,10 +307,10 @@ Would love to hear more about your experience at Rittal and what inspired you to
 	- Do you anticipate any particular vision concerns/conflicts that may arise?
 - Work-life balance?
 	- I know this is a very involved role and I could expect to work over 40 hours a week but want to clarify your expectations and measurements of success
-	- This may center around development timelines and deliverables but want to know what your corporate work culture is typically like
-- I plan to always put my family first
+	- This may center around development timelines and deliverables but want to know what your engineering work culture is typically like
+- I plan to put my family first
 	- Hoping to get married and have children within next 2-3 years
-	- Flexibility/time off to help with this is important to me
+	- Flexibility with this is important to me
 - What's your company's 5 year, 10 year vision?
 	- What's your vision for IIoT?
 - Read your CSR and glad to read sections on Human Rights and Primum Non Nocere

@@ -120,6 +120,11 @@
 	- Machine learning
 - A lot of independence/flexibility
 	- Bit of an island
+- Way over head at Anheuser
+
+**Next Steps**
+- Coding test
+- Call with Craig/Zheng
 
 ##### Culture Fit
 - Work-life balance?
