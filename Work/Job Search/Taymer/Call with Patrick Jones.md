@@ -101,8 +101,25 @@
 - Dot matrix printers?
 - Heard defect mis-identifications are an issue and machine learning has been considered as a solution
 	- Is this a project that may be pursued?
-
 - Lot of flexibility of what to work on
+- 1 week a month travel
+- 1 month in Canada
+	- 2 meetings a year a week long in Canada
+- Troubleshooting split
+	- On a customer to customer basis
+	- No real ticketing system
+	- Southwire, other Benjamin's clients
+		- Reach out because personal connection or assigned by Pat
+		- If focusing on development, can keep in mind
+- Location lock?
+	- Most of customers in the South
+	- Some in California
+- Did use to sell inkjet printers
+	- Expensive, a pain, stopped doing
+- Area of growth is vision related
+	- Machine learning
+- A lot of independence/flexibility
+	- Bit of an island
 
 ##### Culture Fit
 - Work-life balance?
