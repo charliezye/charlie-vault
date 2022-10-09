@@ -51,3 +51,7 @@ Other things to consider that I didn't code:
 	- If too high, means most of noise was not removed so is probably incorrect
 	- Edge image should have very little lines
 -   Write implementation tips for dust/dirt detection
+- Use of more helper methods rather than repeated code
+	- Pointer issues/different uses made modularization take too much time
+- Clustering algorithm to find patches of whitespace instead of more direct detection of defects
+	- Could combine this with whitespace thresholding
