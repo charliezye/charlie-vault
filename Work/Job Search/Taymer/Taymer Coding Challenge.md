@@ -34,6 +34,7 @@ Next:
 -   Create method to measure diameter of defect for drawing
 -   Evenly measured at 3 different spots
 -   Create method to detect if defect present differentiate between pinhole, tear, scratch
+	- Check average of rows/columns and pick largest averages 
 -   All defects tend to have very bright white around edge of defect, can use image thresholding for this
 -   Alternatively check for corners/edges not horizontal
 -   Scratches in particular have only white
