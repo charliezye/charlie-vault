@@ -25,14 +25,14 @@ So far:
 -   Canny edge detection basics
 -   Class implementation with file name input
 -   Visual representation and sliders for image threshold and edge detection
+-   Find default thresholds for wire edges and holes/scratches DONE
+-   Find how to measure width between edges DONE
+-   Create method to measure diameter of defect for drawing DONE 
+-   Evenly measured at 3 different spots DONE
+-   Image output for wire width
 
 Next:
 
--   Find default thresholds for wire edges and holes/scratches
--   Find better way to display edges on top of original image
--   Find how to measure width between edges
--   Create method to measure diameter of defect for drawing
--   Evenly measured at 3 different spots
 -   Create method to detect if defect present differentiate between pinhole, tear, scratch
 	- Check average of rows/columns and pick largest averages 
 -   All defects tend to have very bright white around edge of defect, can use image thresholding for this
