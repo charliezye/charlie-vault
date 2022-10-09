@@ -18,3 +18,31 @@
 	2. Dust
 	3. Dirt
 	4. Flies
+
+So far:
+
+-   Image thresholding basics
+-   Canny edge detection basics
+-   Class implementation with file name input
+-   Visual representation and sliders for image threshold and edge detection
+
+Next:
+
+-   Find default thresholds for wire edges and holes/scratches
+-   Find better way to display edges on top of original image
+-   Find how to measure width between edges
+-   Create method to measure diameter of defect for drawing
+-   Evenly measured at 3 different spots
+-   Create method to detect if defect present differentiate between pinhole, tear, scratch
+-   All defects tend to have very bright white around edge of defect, can use image thresholding for this
+-   Alternatively check for corners/edges not horizontal
+-   Scratches in particular have only white
+-   Tears have large horizontal section of black/white
+-   Pinhole has distinct circular shape
+-   Figure out how to display wire width and circles around defects on screen
+-   Add buttons for running methods for defect detection, width detection
+-   Probably just want to have general defect detection that automatically differentiates
+-   Documentation for each method
+-   Separate documentation document with images to explain methods etc.
+-   Consider other edge detection algorithms better at horizontal edges
+-   Write implementation tips for dust/dirt detection
