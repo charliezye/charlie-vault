@@ -45,5 +45,9 @@ Next:
 -   Probably just want to have general defect detection that automatically differentiates
 -   Documentation for each method
 -   Separate documentation document with images to explain methods etc.
--   Consider other edge detection algorithms better at horizontal edges
+
+Other things to consider that I didn't code:
+-   Taking mean of edge image and thresholding
+	- If too high, means most of noise was not removed so is probably incorrect
+	- Edge image should have very little lines
 -   Write implementation tips for dust/dirt detection
