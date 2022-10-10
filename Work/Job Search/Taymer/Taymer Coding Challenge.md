@@ -30,19 +30,18 @@ So far:
 -   Create method to measure diameter of defect for drawing DONE 
 -   Evenly measured at 3 different spots DONE
 -   Image output for wire width
+-   Figure out how to display wire width and circles around defects on screen
+-   Add buttons for running methods for defect detection, width detection
 
 Next:
 
 -   Create method to detect if defect present differentiate between pinhole, tear, scratch
 	- Check average of rows/columns and pick largest averages 
--   All defects tend to have very bright white around edge of defect, can use image thresholding for this
--   Alternatively check for corners/edges not horizontal
 -   Scratches in particular have only white
 -   Tears have large horizontal section of black/white
 -   Pinhole has distinct circular shape
--   Figure out how to display wire width and circles around defects on screen
--   Add buttons for running methods for defect detection, width detection
--   Probably just want to have general defect detection that automatically differentiates
+
+
 -   Documentation for each method
 -   Separate documentation document with images to explain methods etc.
 
@@ -55,3 +54,6 @@ Other things to consider that I didn't code:
 	- Pointer issues/different uses made modularization take too much time
 - Clustering algorithm to find patches of whitespace instead of more direct detection of defects
 	- Could combine this with whitespace thresholding
+
+-   All defects tend to have very bright white around edge of defect, can use image thresholding for this
+-   Alternatively check for corners/edges not horizontal
