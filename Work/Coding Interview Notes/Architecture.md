@@ -4,6 +4,12 @@ Ones I've used
 ##### Boeing: 
 ###### MVC or MVP
 
+##### Angel Oak
+###### Pipe-filter pattern
+- Produce and process stream of data
+- Processing steps enclosed in filter component
+- Data passed through pipes in Azure
+
 ##### Royall: 
 ###### Flutter Bloc library
 - Presentation
@@ -12,7 +18,7 @@ Ones I've used
     - Repository
     - Data Provider
 ###### Spring Boot 
-- Mic Architecture
+- Microservices Architecture
 	- Presentation
 	- Business
 	- Persistence
