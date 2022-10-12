@@ -1,5 +1,27 @@
 # Architecture
 
+Ones I've used
+##### Boeing: 
+###### MVC or MVP
+
+##### Royall: 
+###### Flutter Bloc library
+- Presentation
+- Business Logic
+- Data
+    - Repository
+    - Data Provider
+###### Spring Boot 
+- Mic Architecture
+	- Presentation
+	- Business
+	- Persistence
+	- Database
+- Dependency inversion principle
+	- Inversion of control pattern
+	- Dependency Injection pattern
+
+
 ### Basic Arch: MVC
 
 ###### Overview
