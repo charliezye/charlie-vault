@@ -44,7 +44,7 @@ Rembrandt Confirmation
 - Love a good technical challenge, exploring and learning about new innovative technologies and balancing use of industry standards, feeling of pride and ownership I get when I produce quality work
 - Most recently worked to co-found Royall Technologies to build an app in the social media/investment space, since parted ways but looking for a position with in a future focused and highly collaborative development environment that's focused on making a difference and providing quality products for clients.
 - Passionate about digital health equity, saw on your DEI page that Epic offers tools to identify and address health disparities like Perinatal Equity app and  Sex, Gender, and Names, and I would love to work with on a team that focuses in that, but overall I believe contributing and encouraging ethical design and patient consideration on Epic solutions would make a big difference for the huge network of organizations and people Epic helps every day
-	- 
+
 
 ###### Bits of Good
 1. Directing product lifecycles
