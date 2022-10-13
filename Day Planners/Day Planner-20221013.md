@@ -31,7 +31,7 @@ This is where I get ready for work and do my usual prep.
 - [x] 16:00 Final tasks
 
 ### Wind Down
-- [ ] 17:00 Review the day and prioritize tasks for tomorrow
+- [x] 17:00 Review the day and prioritize tasks for tomorrow
 - [ ] 17:30 Go on a walk
 - [ ] 18:30 Dinner
 - [ ] 19:30 Chill + Crochet
