@@ -32,7 +32,7 @@ binarySearch(arr, x, startIndex, endIndex)
 		   return mid
 	
 		   else if (x > arr[mid]) // x is on the right side
-			   startIndex = mid + 1
+			   startIndex = mid
 	
 		   else                  // x is on the left side
 			   endIndex = mid - 1
