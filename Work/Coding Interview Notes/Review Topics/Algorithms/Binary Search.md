@@ -9,6 +9,8 @@
 - In this case 
 	- (Low + high) / 2 can INTEGER OVERFLOW
 	- **Low + (high - low) / 2** never will so ALWAYS use this
+- Any operation that might overflow:
+	- Consider reversing operation so original num is greatest in
 
 ##### Analyzing Specific Problems
 - Don't use template

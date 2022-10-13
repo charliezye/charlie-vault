@@ -17,7 +17,7 @@ This is where I get ready for work and do my usual prep.
 - [x] 09:45 Get up + Do some kind of exercise
 - [x] 10:00 Practice coding challenges
 - [x] 10:45 Get up + Do some kind of exercise
-- [ ] 11:00 Job applications + interview preparation
+- [x] 11:00 Job applications + interview preparation
 - [ ] 11:45 Get up + Fill second water bottle of the day
 - [ ] 12:00 Lunch + break
 
