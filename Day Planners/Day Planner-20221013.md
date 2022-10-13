@@ -23,7 +23,7 @@ This is where I get ready for work and do my usual prep.
 
 ### Afternoon Job Search
 - [x] 13:00 Research important coding topics
-- [ ] 13:45 Get up + Do some kind of exercise
+- [x] 13:45 Get up + Do some kind of exercise
 - [ ] 14:00 Practice coding challenges
 - [ ] 14:45 Get up + Do some kind of exercise
 - [ ] 15:00 Job applications + interview preparation
