@@ -15,7 +15,7 @@ This is where I get ready for work and do my usual prep.
 ### Morning Job Search
 - [x] 09:00 Research important coding topics
 - [x] 09:45 Get up + Do some kind of exercise
-- [ ] 10:00 Practice coding challenges
+- [x] 10:00 Practice coding challenges
 - [ ] 10:45 Get up + Do some kind of exercise
 - [ ] 11:00 Job applications + interview preparation
 - [ ] 11:45 Get up + Fill second water bottle of the day

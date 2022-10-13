@@ -4,6 +4,12 @@
 
 - Basic concept: Repeatedly divide the search interval in half
 
+#### INCREDIBLY IMPORTANT
+- Should NEVER add two signed integers if either could be max int
+- In this case 
+	- (Low + high) / 2 can INTEGER OVERFLOW
+	- **Low + (high - low) / 2** never will so ALWAYS use this
+
 ### Basic Steps
 1. Begin with the middle element of the array
 2. If the value of the search item is equal to the middle element, then return its index
