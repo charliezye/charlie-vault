@@ -1,0 +1,38 @@
+## Day Planner
+This is my plan for the day broken into 3 main sections: 
+1. Morning Prep 
+2. Morning Job Search
+3. Afternoon Job Search
+4. Wind Down
+### Morning Prep
+This is where I get ready for work and do my usual prep. 
+- [x] 07:00 Coffee + Wakeup + Morning Chores
+- [x] 07:45 Review notes from yesterday + Plan goals for the day
+- [x] 08:00 Respond to emails and review job search
+- [x] 08:30 Get up + Time to catch up on miscellaneous tasks
+- [ ] 08:45 Fill first water bottle of the day
+
+### Morning Job Search
+- [ ] 09:00 Research important coding topics
+- [ ] 09:45 Get up + Do some kind of exercise
+- [ ] 10:00 Practice coding challenges
+- [ ] 10:45 Get up + Do some kind of exercise
+- [ ] 11:00 Job applications + interview preparation
+- [ ] 11:45 Get up + Do some kind of exercise
+- [ ] 12:00 Lunch + break
+
+### Afternoon Job Search
+- [ ] 13:00 Research important coding topics
+- [ ] 13:45 Get up + Do some kind of exercise
+- [ ] 14:00 Practice coding challenges
+- [ ] 14:45 Get up + Do some kind of exercise
+- [ ] 15:00 Job applications + interview preparation
+- [ ] 15:45 Get up + Do some kind of exercise
+- [ ] 16:00 Final tasks
+
+### Wind Down
+- [ ] 17:00 Review the day and prioritize tasks for tomorrow
+- [ ] 17:30 Go on a walk
+- [ ] 18:30 Dinner
+- [ ] 19:30 Chill + Crochet
+- [ ] 21:30 Wind down for bed
