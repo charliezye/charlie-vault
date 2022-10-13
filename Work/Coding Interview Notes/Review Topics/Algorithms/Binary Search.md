@@ -10,6 +10,21 @@
 	- (Low + high) / 2 can INTEGER OVERFLOW
 	- **Low + (high - low) / 2** never will so ALWAYS use this
 
+##### Analyzing Specific Problems
+- Don't use template
+- Instead, consider:
+	1. What is possible range?
+	2. No overflow calculate mid
+	3. Consider cases
+		1. High should be set to mid
+		2. Low should be mid + 1
+		3. This is because division rounds down, so we know low is always below if not equal
+	4. Determine loop condition, l \< r, l \<= r, or l \< r - 1
+		1. Analyze when we have 3, 2, or 1 element in code
+		2. Whichever doesn't cause dead loop
+	5. Consider post processing. Once you reach index how to change what you return? 
+		1. Typically quick to identify with 2 elements
+
 ### Basic Steps
 1. Begin with the middle element of the array
 2. If the value of the search item is equal to the middle element, then return its index
