@@ -10,7 +10,7 @@ This is where I get ready for work and do my usual prep.
 - [x] 07:45 Review notes from yesterday + Plan goals for the day
 - [x] 08:00 Respond to emails and review job search
 - [x] 08:30 Get up + Time to catch up on miscellaneous tasks
-- [ ] 08:45 Fill first water bottle of the day
+- [x] 08:45 Fill first water bottle of the day
 
 ### Morning Job Search
 - [ ] 09:00 Research important coding topics
@@ -18,7 +18,7 @@ This is where I get ready for work and do my usual prep.
 - [ ] 10:00 Practice coding challenges
 - [ ] 10:45 Get up + Do some kind of exercise
 - [ ] 11:00 Job applications + interview preparation
-- [ ] 11:45 Get up + Do some kind of exercise
+- [ ] 11:45 Get up + Fill second water bottle of the day
 - [ ] 12:00 Lunch + break
 
 ### Afternoon Job Search
@@ -27,7 +27,7 @@ This is where I get ready for work and do my usual prep.
 - [ ] 14:00 Practice coding challenges
 - [ ] 14:45 Get up + Do some kind of exercise
 - [ ] 15:00 Job applications + interview preparation
-- [ ] 15:45 Get up + Do some kind of exercise
+- [ ] 15:45 Get up + Fill third water bottle of the day
 - [ ] 16:00 Final tasks
 
 ### Wind Down
