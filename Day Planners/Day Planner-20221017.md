@@ -19,7 +19,7 @@ This is where I get ready for work and do my usual prep.
 - [x] 10:30 Call with Colin
 - [x] 11:00 Amazon interview prep
 - [x] 11:45 Get up + Fill second water bottle of the day
-- [ ] 12:00 Lunch + break
+- [x] 12:00 Lunch + break
 
 ### Afternoon Job Search
 - [ ] 13:00 Job apps + Cover letters
