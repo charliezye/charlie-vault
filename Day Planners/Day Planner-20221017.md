@@ -32,7 +32,7 @@ This is where I get ready for work and do my usual prep.
 
 ### Wind Down
 - [x] 17:00 Review the day and prioritize tasks for tomorrow
-- [ ] 17:30 Go on a walk
+- [x] 17:30 Go on a walk
 - [ ] 18:30 Dinner
 - [ ] 19:30 Chill + Crochet
 - [ ] 21:30 Wind down for bed
