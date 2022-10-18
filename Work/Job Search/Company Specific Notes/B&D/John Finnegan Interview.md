@@ -5,19 +5,6 @@
 -   All of the development thus far has been done by an external agency (Yonder Agency) and this individual will oversee the external agency, quarterbacking everything as it pertains to B&D Industrial and the OptiPro SaaS Product.
 -   They need someone with strong communications skills, poise, and the ability to challenge/make recommendations on technologies to the folks at Yonder Agency, while communicating with leadership, stakeholders, and customers to illicit the correct requirements to improve the product.
 
-###### Rittal 
-- Noticed they had IIOT for cooling systems
-- What made you leave to come to B&D?
-
-Has Optipro been deployed in many manufacturing facilities yet?
-
-###### What do you want OptiPro to become?
-
-- What's your long-term vision for the product?
-- What's your vision for my involvement and long-term role with the product/future products at your company?
-- How much of the future vision of the product will be in my hands?
-	- With regards to implementation decisions leading to intended outcomes
-	- With regards to internal application architecture/team decisions
 
 ## My Pitch
 
@@ -49,3 +36,42 @@ Love a good technical challenge and the problem-solving process, exploring and l
 I understand if it may be a concern that I'm young, especially for a role of this breadth. However, I see my age as a point of strength. I'm experienced but eager to learn, unencumbered by bad habits, adaptable, and innovative. I believe you’d be hard-pressed to find another candidate who both matches your needs and is as enthusiastic, forward-focused, and ready to build this team’s culture as I am.
 
 Overall, I've always focused on pushing my organizations toward sustained success. I'm hard-working and dependable guy, and I would adjust at a fast pace and begin contributing immediately. As a quarterback, I’ve got the poise to be a leader in your locker room and the skills to execute the game plan, and I’d love a chance to start on your team.
+
+
+## Questions
+
+###### Rittal 
+
+- Seems like a great company you had built yourself up in, saw you were there for 20+ years, have a lot of admiration for that as someone who has tried to navigate college and life independently
+- Would love to hear more about your experience at Rittal and what inspired you to come to B&D to head up their IIoT solutions
+- What insights did you bring and what do you think is necessary for success in the IoT field?
+
+###### Current Status of OptiPro
+
+- Support in developing management vision into product that also meets needs of customers? 
+	- Acquisition of GTI predictive
+	- Do they mainly only work on VibePro or are they also involved with OptiPro?
+	- Mainly curious if they will be providing machine learning solutions
+- Yonder Group seems mostly web development focused, great website for OptiPro but wondering what their experience is with the cloud and data pipelines
+	- Do you anticipate any particular vision concerns/conflicts that may arise?
+
+###### What do you want OptiPro to become?
+
+- What's your long-term vision for the product? IIoT?
+- How do you see my involvement and contribution with the product/future products at your company?
+- How much of the design or implementation decisions for the product will be in our hands? 
+
+###### Culture Fit
+
+- Describe company's culture in your area?
+- Work-life balance?
+	- I know this is a very involved role and I could expect to work over 40 hours a week but want to clarify your expectations and measurements of success
+	- Are there already established timelines and deliverables? What's engineering work culture intended to be like?
+- Top competitor in IIoT? 
+	- How is B&D better?
+- Biggest challenges in the IIoT space and how you're addressing them?
+- Read your CSR and glad to read sections on Human Rights and Primum Non Nocere
+	- How does B&D support the local community and contribute to local causes and underserved communities?
+
+- Have I answered all your questions? Anything I can clarify or elaborate on?
+- Anyone else I should meet with?

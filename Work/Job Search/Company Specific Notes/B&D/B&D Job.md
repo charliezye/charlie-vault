@@ -43,7 +43,7 @@
 2. Communication with non-technical clients
 	1. Translation of needs to features
 2. PM Experience
-	1. Agile, Kanban, Scrum, we settled on 
+	1. Agile - Kanban, Scrum
 	2. Worked with JIRA on project management with GT transition of HR/payroll software from PeopleSoft to Workday for 9 months early in college
 3. Hiring experience and vision of who I'd want to be a part of my team long-term
 	- Obviously technical skills are important, but I believe I have had ability to discern whether candidates have strong soft skills
