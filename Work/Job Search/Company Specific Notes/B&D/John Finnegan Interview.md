@@ -11,12 +11,6 @@
 
 Has Optipro been deployed in many manufacturing facilities yet?
 
-###### Basic about Sensors
-- Understand that most have different capabilities to put out different data formats
-	- Could be Excel file, JSON, data stream to read from serial port
-	- I'm very proficient in handling these different data streams, it's an essential concept for building application backends and programming courses in general!
-
-
 ###### What do you want OptiPro to become?
 
 - What's your long-term vision for the product?
@@ -25,48 +19,28 @@ Has Optipro been deployed in many manufacturing facilities yet?
 	- With regards to implementation decisions leading to intended outcomes
 	- With regards to internal application architecture/team decisions
 
-###### My Vision (based on limited knowledge)
+## My Pitch
 
+1. Colin reached out to me, spoke over the phone, he really sold me on the position and vision you had, I'd really love to work together on this
+2. Intro
+	1. Family man, high school sweetheart and 3 dogs
+	2. Parents at UGA for 30 years, B&Dfamily & employee owned
+	3. Impart one impression - Pride, care, and accountability in my work and community
+3. Ownership and pride from building something and seeing its impact
+	1. Accountability
+	2. Sense of trust and mutual respect with customers and people you work with
+	3. Always harped on this, number one focus
+4. Lead engineering and Cloud transition
+	1. Royall - designed and built backend, deployed to AWS
+	2. Angel Oak - Machine learning data pipeline in Azure
+	3. Boeing - Full-stack, height of COVID-19
+	4. Highly interpretable, scalable, and flexible
+	5. Encompasses AWS, Python, Angular
 
-###### Vision I Present to You
+I understand you need someone who can lead engineering and your Cloud transition internally. I’ve conceptualized and built software from the ground up and deployed it on the Cloud at Royall. I’ve integrated APIs into large IT Cloud pipelines at Angel Oak. I’ve built full-stack applications on a high-volume IT team at the height of COVID-19 layoffs at Boeing. All of this was built to be highly interpretable, scalable, and flexible, and it encompasses the knowledge you need - AWS, Python, and Angular.
 
-Overall, vision is to provide a secure, scalable, efficient, and comprehensive product that satisfies customer needs first but meets management expectations.
+What ties this together are my management skills and end-to-end product experience. I’ve been a sergeant leading missions and campaigns for five years. I’ve worked on an MVP, business case, and upper management presentation for an emergent B2B solution with Ware2Go. I’ve excelled at balancing client needs with management vision to produce results for local nonprofits with Bits of Good. I’ve recruited and taught product managers that are now at Microsoft and Facebook. These experiences lend me an ability to discern secondary variables important for product success and the soft skills to build a great team around me.
 
-Not to give away the whole farm, but:
+Overall, I've always focused on pushing my organizations toward sustained success. I'm an adaptable, hard-working, and dependable guy, and I would adjust at a fast pace and begin contributing immediately. As a quarterback, I’ve got the poise to be a leader in your locker room and the skills to execute the game plan, and I’d love a chance to start on your team.
 
-1. Device/Actuators
-2. Network Layer
-	1. Field gateways to pass information from devices to DB
-	2. LPWAN, Cellular, Zigbee?
-3. AWS Cloud Hosting Solution
-	1. Databases:
-		1. "Data lake" for all your raw data from sensors
-			1. Good if need to analyze data against other data before storing
-			2. OR Edge devices 
-				1. Store and process data close to its source, only sending a part of the generated records to the data warehouse on the cloud
-				3. Can save a lot of time/resources otherwise used to send raw data to cloud
-		2. "Cloud gateways" for compression and entry of important information to cloud
-			1. Transform, filter, and aggregate data before sending to data warehouse, e.g. changing formatting
-		3. "Data warehouse" to store insightful data
-		5. Data analytics in AWS and in backend to analyze issues/bugs in process
-		6. Caching with Elasticache, Cloudfront, Route 53
-4. Whichever backend framework you're using
-	1. All your complex data querying and analytics for data used in visualizations and presentation to users
-	2. Django most likely, consider Java and NodeJS as well
-6. Angular Frontend for user applications/touchpoints
-7. Long term: 
-	1. Machine learning to customize functionalities, analyze devices, and extract big data trends across customers
-	2. Not sure if this is applicable, but use of smart phones, smart watches or other wearables for workers
-		1. These have a ton of sensors built in and I've worked with them between Ubiquitous Computing and work w/ Ware2Go
-
-Why is this plan important?
-1. Maintainability
-2. Scalability
-3. Cost-efficiency
-4. High/quick performance
-5. Interoperability
-6. Security
-How does it accomplish this?
-- Microservices, modularization
-- Clear division of labor among steps and prioritization of important data
-- No storage of parts that are not useful
+**
