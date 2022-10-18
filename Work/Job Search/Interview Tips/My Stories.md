@@ -123,17 +123,11 @@ Consider asking questions about their team and organization, process improvement
 
 #### Projects
 
-###### Nirvana Storage
-
 ###### Ware2go Capstone
 
 1. 
 
 ###### Machine Learning Petfinder NN
-
-1. 
-
-###### ASL Games
 
 1. 
 
@@ -161,7 +155,8 @@ Consider asking questions about their team and organization, process improvement
 	2. Product roadmap
 	3. Zenhub kanban board for tasks
 5. How did I select candidates?
-	1. 
+	1. Full application process, two interviews, selected around 12-15 out of 60 applications on average
+	2. Most important factors for me are always future focus on themselves and the organization, ownership and accountability, and enthusiasm for the impact we were creating
 6. How did I mentor product managers?
 	1. Senior vs. junior
 	2. Summer course in product management and Agile practices

@@ -1,8 +1,8 @@
 # B&D Industrial Job Notes
 
-## B&D Core Values
-### TO BE THE BEST AT WHAT WE DO.
-#### OUR **CORE VALUES** DRIVE US TO GO BIG
+### B&D Core Values
+#### TO BE THE BEST AT WHAT WE DO.
+##### OUR CORE VALUES DRIVE US TO GO BIG
 - Golden Rule - Treat all others as you want to be treated
 - Own it – The buck stops with me once I get involved
 - Be the best we can be
@@ -107,14 +107,16 @@
 - Also knowledge from working on authentication and security at startup
 - Contact who I still regularly speak with and consulted for startup security concerns at Bank of America who has a **master's in cybersecurity** and taught me Angular at Boeing
 
-#### Optipro
+### Optipro
+
 - Gathers data in 5 most common coding languages and combines into cohesive dashboard
 
 How old is the OptiPro product now?
 - Saw that TM was filed in August
 
 ##### About the Application
-###### Steps
+
+###### Steps:
 1. Connect IIOT devices
 2. Gather and translate data into one unified dashboard
 	1. Internet browser
@@ -133,6 +135,8 @@ How old is the OptiPro product now?
 >>Faster throughput, higher efficiency, reduced operational costs, and less waste
 
 #### Questions about OptiPro
+
+##### Basics
 
 **What kind of production machines interacting with?**
 - Listed by OptiPro press release
@@ -215,7 +219,7 @@ Unstructured set of individual codes/scripts
 
 ###### Vision I Present to You
 
-Overall, vision is to provide a secure, scalable, efficient, and comprehensive product that satisfies customer needs and meets management expectations.
+Overall, vision is to provide a secure, scalable, efficient, and comprehensive product that satisfies customer needs first but meets management expectations.
 
 Not to give away the whole farm, but:
 
