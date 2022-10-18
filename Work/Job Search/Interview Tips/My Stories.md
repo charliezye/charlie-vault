@@ -83,11 +83,43 @@ Consider asking questions about their team and organization, process improvement
 
 1. Giving back to my community while also supporting COVID-19 response efforts
 	1. Packaged and distributed food and other essentials with food bank
-	2. 
+	2. Leading team as NCO to accomplish tasks
 
 ###### Angel Oak
 
+1. Restructured Encompass API
+	1. Modularized classes, added unit testing
+	2. Intended to access and manage mortgage data
+2. Developed NLP model
+	1. Logistic regression/OCR were not working well at first, lots of edge cases
+	2. Learned importance of heavily focusing in pre-processing for scanned documents
+		1. B/W thresholding, white-space checking, number of characters, document structure, any large marks obstructing text, noise
+	3. Replicating work for multiple types of documents
+	4. Learned how to set up data pipeline in Azure cloud
+		1. Using Azure functions to preprocess scanned images upon entry and convert to text
+3. Importance of good team culture and highly collaborative environment
+
 ###### Royall
+
+1. Entrepreneurial mindset and having vision for product
+	1. Pivoted our application and entry market several times
+	2. Settled on NCAA athletes NIL 
+	3. Had to pivot investment side into blockchain due to SEC regulations
+2. Need for flexible and scalable backend
+	1. Anticipating tens of thousands of users and millions of posts/comments/data points
+	2. Was in charge of entire backend, database, and AWS deployment
+		1. MySQL/PostgreSQL DBs
+		2. Spring Boot Domain Driven Design
+		3. Microservices
+		4. Continuous Deployment with AWS Code Pipeline
+		5. S3, EC2, CloudFront for caching
+3. Importance of marketing plan and vision
+	1. User research, entry market, competitor research, etc.
+	2. Raising capital, plan was either to go to VC or spend most of budget on SEC law team to work out issues with blockchain currency
+4. Why did we decided to go separate ways?
+	1. Too much contingency on SEC approval of currencies
+	2. Could not ICO any of them in the US legally without approval which could have taken a year
+	3. Building product without guarantee of it being approved, less confidence in market, and large commitment for recent grads
 
 #### Projects
 
@@ -95,11 +127,34 @@ Consider asking questions about their team and organization, process improvement
 
 ###### Ware2go Capstone
 
+1. 
+
 ###### Machine Learning Petfinder NN
+
+1. 
 
 ###### ASL Games
 
+1. 
+
 ###### Millenium Fellowship
+
+1. Importance of sharing knowledge with younger generation
+	1. Importance of providing knowledge/resources to parents about secondary education
+	2. Especially for immigrant/refugee populations
 
 ###### Bits of Good
 
+1. Establishing vision for an organization and team and iterating on that vision until finding what works
+	1. Balancing developer time/expectations with management vision and client needs
+2. Client communication
+	1. Deciding which nonprofit projects will be interesting for teams, which clients will communicate well, which we can feasibly accomplish
+3. Translating customer needs into features
+	1. Product Requiremen
+4. Agile experience
+5. What happens when project is falling behind or isn't completed?
+6. What to do when
+7. How did I select candidates?
+	1. 
+8. How did I mentor product managers?
+	1. Senior vs. junior
