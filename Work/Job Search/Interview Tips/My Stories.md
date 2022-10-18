@@ -147,14 +147,22 @@ Consider asking questions about their team and organization, process improvement
 
 1. Establishing vision for an organization and team and iterating on that vision until finding what works
 	1. Balancing developer time/expectations with management vision and client needs
+	2. Creating vision for future of product
 2. Client communication
 	1. Deciding which nonprofit projects will be interesting for teams, which clients will communicate well, which we can feasibly accomplish
+		1. Eventually created Nonprofit Partnership committee to take over this role
+	2. What happens when project is falling behind or isn't completed?
+		1. Establishing strong relationships with clients and properly communicating expectations up front, coming to compromises when there are issues
+	3. What happens when clients are not communicative?
 3. Translating customer needs into features
-	1. Product Requiremen
+	1. Product Spec
 4. Agile experience
-5. What happens when project is falling behind or isn't completed?
-6. What to do when
-7. How did I select candidates?
+	1. Used mix of scrum, kanban, FDD
+	2. Product roadmap
+	3. Zenhub kanban board for tasks
+5. How did I select candidates?
 	1. 
-8. How did I mentor product managers?
+6. How did I mentor product managers?
 	1. Senior vs. junior
+	2. Summer course in product management and Agile practices
+		1. Roadmapping, standups, 
