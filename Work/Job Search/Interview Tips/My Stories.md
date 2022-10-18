@@ -74,10 +74,16 @@ Consider asking questions about their team and organization, process improvement
 4. Interaction with unhappy internal client
 	1. Heated discussion as this client in charge of HR did not know this application was in development at all and had not been consulted on its design
 	2. Customer first taking criticisms professionally and working to make changes and ready application for deployment a week later than scheduled
-5. Front-end development for 
+5. Front-end development for blockchain supply chain management project
+	1. Integrating with existing complex backend
 6. Importance of project templates for REST APIs to save a ton of time standing up new applications quickly
+	1. Creating full-stack template in Angular/Spring with all the groundwork
 
 ###### Active Duty Food Bank
+
+1. Giving back to my community while also supporting COVID-19 response efforts
+	1. Packaged and distributed food and other essentials with food bank
+	2. 
 
 ###### Angel Oak
 
