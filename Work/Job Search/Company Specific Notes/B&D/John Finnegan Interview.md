@@ -30,17 +30,22 @@ Has Optipro been deployed in many manufacturing facilities yet?
 	1. Accountability
 	2. Sense of trust and mutual respect with customers and people you work with
 	3. Always harped on this, number one focus
+
+Love a good technical challenge and the problem-solving process, exploring and learning about new technologies, balancing use of industry standards and new innovative options
+
 4. Lead engineering and Cloud transition
 	1. Royall - designed and built backend, deployed to AWS
 	2. Angel Oak - Machine learning data pipeline in Azure
 	3. Boeing - Full-stack, height of COVID-19
 	4. Highly interpretable, scalable, and flexible
 	5. Encompasses AWS, Python, Angular
+6. Management skills/End-to-end product experience
+	1. sergeant leading missions and campaigns for five years
+	2. MVP, business case, and upper management presentation for an emergent B2B solution with Ware2Go
+	3. I’ve excelled at balancing client needs with management vision to produce results for local nonprofits with Bits of Good. 
+		1. Recruited and mentored product managers now at Facebook/Microsoft
+	4. These experiences lend me an ability to discern secondary variables important for product success and the soft skills to build a great team around me.
 
-I understand you need someone who can lead engineering and your Cloud transition internally. I’ve conceptualized and built software from the ground up and deployed it on the Cloud at Royall. I’ve integrated APIs into large IT Cloud pipelines at Angel Oak. I’ve built full-stack applications on a high-volume IT team at the height of COVID-19 layoffs at Boeing. All of this was built to be highly interpretable, scalable, and flexible, and it encompasses the knowledge you need - AWS, Python, and Angular.
+I understand if it may be a concern that I'm young, especially for a role of this breadth. However, I see my age as a point of strength. I'm experienced but eager to learn, unencumbered by bad habits, adaptable, and innovative. I believe you’d be hard-pressed to find another candidate who both matches your needs and is as enthusiastic, forward-focused, and ready to build this team’s culture as I am.
 
-What ties this together are my management skills and end-to-end product experience. I’ve been a sergeant leading missions and campaigns for five years. I’ve worked on an MVP, business case, and upper management presentation for an emergent B2B solution with Ware2Go. I’ve excelled at balancing client needs with management vision to produce results for local nonprofits with Bits of Good. I’ve recruited and taught product managers that are now at Microsoft and Facebook. These experiences lend me an ability to discern secondary variables important for product success and the soft skills to build a great team around me.
-
-Overall, I've always focused on pushing my organizations toward sustained success. I'm an adaptable, hard-working, and dependable guy, and I would adjust at a fast pace and begin contributing immediately. As a quarterback, I’ve got the poise to be a leader in your locker room and the skills to execute the game plan, and I’d love a chance to start on your team.
-
-**
+Overall, I've always focused on pushing my organizations toward sustained success. I'm hard-working and dependable guy, and I would adjust at a fast pace and begin contributing immediately. As a quarterback, I’ve got the poise to be a leader in your locker room and the skills to execute the game plan, and I’d love a chance to start on your team.
