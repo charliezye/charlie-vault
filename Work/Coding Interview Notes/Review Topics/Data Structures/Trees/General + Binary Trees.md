@@ -172,9 +172,7 @@ For each node, 2 more spots for left/right allocated at end of string
   - Implemented with recursion
   - Generally requires less memory than BFS
 
-Implementation of these two traversal methods are shown in separate files linked above.
-
-#### Ordered Traversals 
+#### DFS Ordered Traversals 
 ###### (O(n) time, O(h) space)
   - Space considers functional call stack
 	  - All algorithms assume O(h) unless otherwise specified
