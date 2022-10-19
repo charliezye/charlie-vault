@@ -193,6 +193,8 @@ Based on Divide and Conquer. The array is initially divided into two equal halve
 
 #### Quick Sort
 ###### O(n<sup>2</sup>) time, O(1) space
+- Despite being O(n^2) worst case, faster in practice O(n log n) than merge sort and heap sort as worst case rarely happens for any use cases less than nhuge
+
 Another D&C algorithm. Picks an element as a pivot and partitions the given array around the picked pivot.
 - Different versions
 	- Always pick the first element as a pivot.
@@ -201,7 +203,9 @@ Another D&C algorithm. Picks an element as a pivot and partitions the given arra
 	- Pick median as the pivot.
 - Partition
 	- Given an array and an element x of it as the pivot, put x  at its correct position in a sorted array, and put all smaller elements before x and greater after x, all in linear time
+- In place as only use space for recursive calls
 
+##### Steps
 1. Start with left-most element and keep track of index of smaller or equal elements as i
 2. If we find a smaller element, swap current element with i
 3. Otherwise, ignore current element
