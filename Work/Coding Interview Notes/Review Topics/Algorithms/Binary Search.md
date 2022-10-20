@@ -47,7 +47,7 @@
 	3. If middle element greater, set start index to middle + 1
 
 ###### Code:
-```
+``` java
 binarySearch(arr, x, startIndex, endIndex)
 	repeat till startIndex = endIndex
 	   mid = (startIndex + endIndex)/2
@@ -71,7 +71,7 @@ binarySearch(arr, x, startIndex, endIndex)
 	3. If middle element greater, recursive call with mid + 1 as end index
 
 ###### Code:
-```
+``` java
 binarySearch(arr, x, low, high)
    if low > high
 	   return False 

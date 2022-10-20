@@ -54,7 +54,7 @@
 	2. twos: The bits that have appeared 2nd time or 5th time or 8th time .. etc.
 - Finally, we return the value of ‘ones’
 
-```
+``` java
  for (int i = 0; i < n; i++) {
             /*"one & arr[i]" gives the bits that are there in
             both 'ones' and new element from arr[]. We

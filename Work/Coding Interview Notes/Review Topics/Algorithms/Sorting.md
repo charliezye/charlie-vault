@@ -16,7 +16,7 @@ Repeatedly find the minimum element from the unsorted part and put it at the beg
 - Not stable
 
 ###### Code
-```
+``` java
 	// One by one move boundary of unsorted subarray
 	for (int i = 0; i < n-1; i++)
 	{
@@ -43,7 +43,7 @@ Works by repeatedly swapping adjacent elements if they are in the wrong order.
 - Stable
 
 ###### Code
-```
+``` java
 // An optimized version of Bubble Sort
     static void bubbleSort(int arr[], int n)
     {
@@ -79,7 +79,7 @@ Array is virtually split into sorted and unsorted part. Values of unsorted are p
 	- If smaller, compare to elements before, moving any greater up to make space for current key to be swapped
 
 ###### Code
-```
+```java
 /*Function to sort array using insertion sort*/
     void sort(int arr[])
     {
@@ -121,7 +121,7 @@ Based on Divide and Conquer. The array is initially divided into two equal halve
     5. merge(array, left, mid, right)
 
 ###### Code
-```
+```java
  void merge(int arr[], int l, int m, int r)
     {
         // Find sizes of two subarrays to be merged
@@ -210,7 +210,7 @@ Another D&C algorithm. Picks an element as a pivot and partitions the given arra
 2. If we find a smaller element, swap current element with i
 3. Otherwise, ignore current element
 
-```
+```java
 
     // A utility function to swap two elements
     static void swap(int[] arr, int i, int j)
@@ -287,7 +287,7 @@ A comparison-based sorting technique based on the Binary Heap data structure.
 - Starts from first index of non-leaf node whose index is given by n/2 - 1
 
 Pseudocode
-```
+```java
 heapify(array)  
  Root = array[0]
 
@@ -307,7 +307,7 @@ if(Root != Largest)
 Note: Heapify can only be applied if node's children are heapified, so must be performed in bottom up order
 
 ###### Code
-```
+```java
 public void sort(int arr[])
     {
         int N = arr.length;
@@ -357,7 +357,7 @@ public void sort(int arr[])
 ```
 
 ###### Iterative Heapify
-```
+```java
 // function build Max Heap where value
   // of each child is always smaller
   // than value of their parent

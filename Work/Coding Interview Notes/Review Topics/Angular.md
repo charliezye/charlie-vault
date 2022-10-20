@@ -44,7 +44,7 @@ Includes:
 
 ###### Code Example
 
-```
+``` ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -71,7 +71,7 @@ export class HelloWorldComponent {
 ##### Templates
 Every component has an HTML template that declares how that component renders.
 - Angular adds syntax elements that extend HTML so you can add dynamic values from your component, e.g. dynamic text
-```
+``` ts
 // Dynamic text value, notice double brackets
 <p>{{ message }}</p>
 
@@ -92,7 +92,7 @@ export class HelloWorldInterpolationComponent {
 ```
 - Also supports property bindings to help set values for properties and attributes of HTML elements and pass values to presentation logic
 
-```
+``` ts
 
 ```
 

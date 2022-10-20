@@ -24,7 +24,7 @@
 
 ###### Code
 
-```
+``` java
 /* function to print level order traversal of tree*/
 
 void printLevelOrder()
@@ -67,7 +67,7 @@ void printCurrentLevel(Node root, int level)
 	2. Enqueue node's children
 
 ###### Code
-```
+``` java
 /* Given a binary tree. Print
      its nodes in level order
      using array for implementing queue  */

@@ -10,7 +10,7 @@ WHERE *conditional*
 ###### EXISTS
 - Conditional used to see if a certain value exists in a table column
 - Can be used in the following form:
-```
+``` sql
 SELECT columns
 FROM table_1
 WHERE 
@@ -23,7 +23,7 @@ WHERE table_1_id = table_2_id)
 
 ###### JOIN
 - There are several types of join, all following the below general syntax
-```
+```sql
 Table_1 JOIN Table_2 ON Table_1.table_1_field = Table_2.table_2_field
 ```
 1. Inner JOIN (**JOIN**)
@@ -50,7 +50,7 @@ Table_1 JOIN Table_2 ON Table_1.table_1_field = Table_2.table_2_field
 - % is wildcard of any length, _ is wildcard length one char
 
 ###### CASE
-```
+```sql
 CASE 
 WHEN <condition> THEN <if true> ELSE <if false>
 WHEN <condition> THEN <if true> ELSE <if false>
@@ -61,13 +61,13 @@ END
 - Great for doing multiple updates in columns based on separate conditions in single statement
 
 ###### IF
-```
+```sql
 IF(<condition>, <if true>, <if false>)
 ```
 
 ###### DELETE
 
-```
+```sql
 DELETE FROM <table_name> WHERE <condition>
 ```
 
@@ -75,18 +75,18 @@ DELETE FROM <table_name> WHERE <condition>
 - Several Options
 
 SQL Server
-```
+```sql
 SELECT TOP 3 * FROM Table;
 ```
 MySQL
-```
+```sql
 SELECT * FROM Table  
 LIMIT 3
 ```
 
 ###### UPDATE
 
-```
+```sql
 UPDATE _table_name_  
 SET _column1_ = _value1_, _column2_ = _value2_, ...  
 WHERE _condition_;
