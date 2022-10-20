@@ -93,10 +93,12 @@ void heapify(int arr[], int N, int i)
 ```
 
 #### Decrease Key
+###### O(log n)
 To decrease the value of a certain key inside the min-heap, we need to reach it first
 - Keep map beside original array storing index of every key to determine index
 
-1. Use map to 
+1. Use map to locate index of certain key
+2. Change value and move up the tree if needed for min-heap, or down for max-heap (call heapify)
 
 #### Extract Max/Min
 ###### O(log n)
@@ -128,13 +130,30 @@ public void insert(Comparable x)
 
 #### Deletion
 
-
-#### Searching
-
+1. Call decrease key until max negative
+2. Call extract min as must be minimum value now
 
 #### 4) Other Operations
 
+##### Priority Queue
+
+Queue with following properties:
+1. Every item has a priority associated with it
+2. Element with high priority is dequeued before element with low
+3. If two have same priority, served according to order in the queue
+
+Quite literally implemented as a binary heap with priority as keys.
+
+#### 5) Advantages, Disadvantages, Applications
+
 ##### +++
+- Binary heap supports insert, delete, extract max, and decrease key operations in O(log n) time
+- No extra space for pointers as implementation with array
+- Created in O(n) time
+
+##### ---
+- Searching is O(n)
+- Finding a successor or predecessor of an element takes O(n)
 
 ##### Applications
 1. Priority queues
