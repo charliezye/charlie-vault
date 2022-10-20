@@ -275,3 +275,8 @@ Another D&C algorithm. Picks an element as a pivot and partitions the given arra
 
 #### Heap Sort
 ###### O(n<sup>2</sup>) time, O(1) space
+A comparison-based sorting technique based on the Binary Heap data structure.
+- Similar to selection sort where we first find the minimum element and place it at the beginning
+- Repeat the same process for the remaining elements
+- In place
+- Typically not stable
