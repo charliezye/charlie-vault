@@ -91,6 +91,7 @@ export class HelloWorldInterpolationComponent {
 
 ```
 - Also supports property bindings to help set values for properties and attributes of HTML elements and pass values to presentation logic
+
 ```
 
 ```
