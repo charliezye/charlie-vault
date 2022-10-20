@@ -43,7 +43,7 @@
 1. Calculate middle index
 2. Compare
 	1. If middle element equal to search item, return item
-	2. If middle element less than search item, set end index to middle - 1
+	2. If middle element less than search item, set end index to middle
 	3. If middle element greater, set start index to middle + 1
 
 ###### Code:
