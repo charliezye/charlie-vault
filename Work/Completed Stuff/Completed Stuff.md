@@ -20,7 +20,7 @@
   - [x] 1. Notes (DONE) ✅ 2022-09-26
   - [ ] 2. Implementation Practice
 6) Hash Tables
-  - [ ] 1. Notes
+  - [x] 1. Notes ✅ 2022-10-20
   - [ ] 2. Implementation Practice
 
 ----------------------------------------------------------------
