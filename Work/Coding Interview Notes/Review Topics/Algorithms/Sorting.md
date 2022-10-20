@@ -274,9 +274,152 @@ Another D&C algorithm. Picks an element as a pivot and partitions the given arra
 ```
 
 #### Heap Sort
-###### O(n<sup>2</sup>) time, O(1) space
+###### O(n log n) time, O(1) space
 A comparison-based sorting technique based on the Binary Heap data structure.
 - Similar to selection sort where we first find the minimum element and place it at the beginning
 - Repeat the same process for the remaining elements
 - In place
 - Typically not stable
+- 2-3x slower than well-implemented quick sort
+
+###### Heapify
+- Process of creating a heap data structure from a binary tree represented using an array using recursion
+- Starts from first index of non-leaf node whose index is given by n/2 - 1
+
+Pseudocode
+```
+heapify(array)  
+ Root = array[0]
+
+   Largest = largest( array[0] , array [2 * 0 + 1]/ array[2 * 0 + 2])  
+if(Root != Largest)  
+ Swap(Root, Largest)
+```
+
+###### Algorithm
+1. Build complete binary tree from array
+2. Convert tree into max heap using heapify
+3. Perform heap sort
+	1. Delete root node of max-heap and replace with the last node in the heap (swap and remove last node)
+	2. Heapify the root of the heap
+	3. Repeat while size of heap is greater than 1
+
+Note: Heapify can only be applied if node's children are heapified, so must be performed in bottom up order
+
+###### Code
+```
+public void sort(int arr[])
+    {
+        int N = arr.length;
+ 
+        // Build heap (rearrange array)
+        for (int i = N / 2 - 1; i >= 0; i--)
+            heapify(arr, N, i);
+ 
+        // One by one extract an element from heap
+        for (int i = N - 1; i > 0; i--) {
+            // Move current root to end
+            int temp = arr[0];
+            arr[0] = arr[i];
+            arr[i] = temp;
+ 
+            // call max heapify on the reduced heap
+            heapify(arr, i, 0);
+        }
+    }
+ 
+    // To heapify a subtree rooted with node i which is
+    // an index in arr[]. n is size of heap
+    void heapify(int arr[], int N, int i)
+    {
+        int largest = i; // Initialize largest as root
+        int l = 2 * i + 1; // left = 2*i + 1
+        int r = 2 * i + 2; // right = 2*i + 2
+ 
+        // If left child is larger than root
+        if (l < N && arr[l] > arr[largest])
+            largest = l;
+ 
+        // If right child is larger than largest so far
+        if (r < N && arr[r] > arr[largest])
+            largest = r;
+ 
+        // If largest is not root
+        if (largest != i) {
+            int swap = arr[i];
+            arr[i] = arr[largest];
+            arr[largest] = swap;
+ 
+            // Recursively heapify the affected sub-tree
+            heapify(arr, N, largest);
+        }
+    }
+```
+
+###### Iterative Heapify
+```
+// function build Max Heap where value
+  // of each child is always smaller
+  // than value of their parent
+  static void buildMaxHeap(int arr[], int n)
+  {
+    for (int i = 1; i < n; i++)
+    {
+      // if child is bigger than parent
+      if (arr[i] > arr[(i - 1) / 2])
+      {
+        int j = i;
+ 
+        // swap child and parent until
+        // parent is smaller
+        while (arr[j] > arr[(j - 1) / 2])
+        {
+          swap(arr, j, (j - 1) / 2);
+          j = (j - 1) / 2;
+        }
+      }
+    }
+  }
+ 
+  static void heapSort(int arr[], int n)
+  {
+    buildMaxHeap(arr, n);
+ 
+    for (int i = n - 1; i > 0; i--)
+    {
+      // swap value of first indexed
+      // with last indexed
+      swap(arr, 0, i);
+ 
+      // maintaining heap property
+      // after each swapping
+      int j = 0, index;
+ 
+      do
+      {
+        index = (2 * j + 1);
+ 
+        // if left child is smaller than
+        // right child point index variable
+        // to right child
+        if (index < (i - 1) && arr[index] < arr[index + 1])
+          index++;
+ 
+        // if parent is smaller than child
+        // then swapping parent with child
+        // having higher value
+        if (index < i && arr[j] < arr[index])
+          swap(arr, j, index);
+ 
+        j = index;
+ 
+      } while (index < i);
+    }
+  }
+ 
+  public static void swap(int[] a, int i, int j) {
+    int temp = a[i];
+    a[i]=a[j];
+    a[j] = temp;
+  }
+```
