@@ -94,6 +94,15 @@
 - Missed one detail of algorithm in that if have >2, prev value would still change, so not quite fibonacci
 - Got flustered and thought had done completely wrong when almost had most optimal solution
 
+##### 219. Contains Duplicate II
+- Totally misread problem
+- Had right idea with hashset
+- Hashset add will return true if added and false if it's a duplicate so can use this to my advantage
+
+##### 12. Integer to Roman
+- Use log10 + 1 for finding number of digits in int
+- 
+
 ---
 ---
 
