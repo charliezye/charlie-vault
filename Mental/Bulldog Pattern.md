@@ -11,4 +11,6 @@
 7. - 11. Sc in every stitch (36)
 12. 5 dec, 8 sc, 3 dec, 10 sc, 1 dec (27)
 13.  2 dec, 23 sc (25)
-14.  
+14.  10 sc, 6 inc, 9 sc (31)
+15. - 26. 31 sc
+6/20 
