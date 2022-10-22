@@ -90,10 +90,25 @@ export class HelloWorldInterpolationComponent {
 <p>Hello, World!</p>
 
 ```
+
+###### Property Bindings
 - Also supports property bindings to help set values for properties and attributes of HTML elements and pass values to presentation logic
+	- Notice square brackets indicating binding to value in component class
+	
+``` ts
+<p [id]="sayHelloId" [style.color]="fontColor"> You can set my color in the component! </p>
+```
+
+###### Event Listeners
+- Can also declare event listeners for keystrokes, mouse movements, clicks, touches
+	- Event name in parentheses and reference to method in component
 
 ``` ts
-
+<button type="button" 
+[disabled]="canClick" 
+(click)="sayMessage()"> 
+Trigger alert message 
+</button>
 ```
 
 ##### Dependency Injection
