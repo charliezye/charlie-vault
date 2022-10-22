@@ -1,3 +1,4 @@
+## Head/Body
 1. 6 sc in magic ring (6)
 2. 6 inc (12)
 3. Repeat 6 times (18)
@@ -20,3 +21,12 @@
 	1. 1 sc, 1 dec, 1 sc
 29. Repeat 6 times (12)
 	1. 1 sc, 1 dec 
+30. Fill, thread through all 12 stitches and pull to close
+
+## Legs
+1. 6 sc in magic ring (6)
+2. 6 inc (12)
+3. - 4. 12 sc (12)
+5. 3 dec, 6 sc (9)
+6. 9 sc (9)
+7. - 10. 9 sc (9)
