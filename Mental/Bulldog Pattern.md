@@ -9,7 +9,6 @@
 6. Repeat 6 times (36)
 	1. 2 sc, 1 inc, 2 sc
 7. - 11. Sc in every stitch (36)
-12.   
-9. Repeat 6 times
-10. Repeat 6 times
-11. 
+12. 5 dec, 8 sc, 3 dec, 10 sc, 1 dec (27)
+13.  2 dec, 23 sc (25)
+14.  
