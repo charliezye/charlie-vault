@@ -13,4 +13,10 @@
 13.  2 dec, 23 sc (25)
 14.  10 sc, 6 inc, 9 sc (31)
 15. - 26. 31 sc
-16. 
+27. Repeat 6 times (24)
+	1. 3 sc, 1 dec
+	2. After: 2 sc, 2 dec
+28. Repeat 6 times (18)
+	1. 1 sc, 1 dec, 1 sc
+29. Repeat 6 times (12)
+	1. 1 sc, 1 dec 
