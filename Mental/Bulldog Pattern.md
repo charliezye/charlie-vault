@@ -43,3 +43,23 @@
 3. Ch 1, dec, sc, sc, dec (4)
 4. Ch1, dec, dec
 5. Ch1, slst in last st 
+
+### Some shit
+1. 6 sc in magic ring (6)
+2. 6 inc (12)
+3. Repeat twice (18)
+	1. 3 inc, 3 sc
+4. Repeat 2 times (24)
+	1. Repeat 3 times
+		1. 1 sc, 1 inc
+	2. 3 sc
+5. Repeat 2 times (30)
+	1. Repeat 3 times
+		1. 1 sc, 1 inc, 1 sc
+	2. 3 sc
+6. - 11. 30 sc (30)
+
+### Some shit
+1. 6 sc in magic ring (6)
+2. 6 inc (12)
+3. -5. 12 sc (12)
