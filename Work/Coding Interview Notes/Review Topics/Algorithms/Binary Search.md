@@ -55,10 +55,10 @@ binarySearch(arr, x, startIndex, endIndex)
 		   return mid
 	
 		   else if (x > arr[mid]) // x is on the right side
-			   startIndex = mid
+			   startIndex = mid + 1
 	
 		   else                  // x is on the left side
-			   endIndex = mid - 1
+			   endIndex = mid
 ```
 
 ##### Recursive Method
