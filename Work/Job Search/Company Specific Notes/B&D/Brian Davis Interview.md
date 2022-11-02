@@ -20,18 +20,18 @@
 1. I've spoken with John and Chris Thomas and they really sold me on the position and vision B&D has for the future of IIoT, I'd really love to work together on this
 3. Intro
 	1. Family man, born and raised in Athens, finally back after 5 years in Atlanta and living with high school sweetheart and 3 dogs
-	2. Stayed passionate about my local community and spending time giving back to underserved groups like feeding homeless, working with nonprofits, active duty service at food bank
+	2. Both of our parents are living in Athens long-term and we have a lot of roots in the community so we'd love to stay nearby. We're lifelong Georgia fans and watch the game with her parents every weekend
 	3. Happy to talk about my technical background and qualifications but if I can leave you with any insight on my character I'd want it to be the pride, care, and accountability I have in my work and community
 4. Ownership and pride from building something and seeing its impact
 	1. Accountability that comes with that
 	2. Breeds sense of trust and mutual respect with customers and people you work with
 	3. Always harped on this, number one focus as a part of B&D's IIoT team
 
-Love a problem-solving and a good challenge, exploring and learning about new technologies, balancing innovative risks with proven solutions to meet customer needs
+Love problem-solving and a good challenge, exploring and learning about new technologies, balancing innovative risks with proven solutions to meet customer needs
 
 #### To preface
 2. Watched B&D Anniversary testimonials on site Yonder Agency made
-	- Super great to hear how genuine and authentic everyone was and especially hearing B&D customers and partners 
+	- Super great to hear how genuine and authentic everyone was especially hearing B&D customers and partners 
 
 #### Why B&D?
 ##### Future Innovative Focus
