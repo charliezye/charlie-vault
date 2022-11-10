@@ -35,7 +35,8 @@
 		1. Curious about technology needs in office as well, additional monitors, keyboard, other equipment as my job performance can be dependent on this
 		2. Talk with John, talk to IT
 	2. Any need to travel to customers, will there be company paid travel?
-		1. 
+		1. Absolutely
+		2. Use Concur, per diem, IRS, company credit card
 
 Short-term Disability
 - 40 hours of PTO and kick in
