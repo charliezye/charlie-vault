@@ -7,6 +7,10 @@
 	2. Does it roll over year to year?
 	3. What holidays are given off?
 	4. Is their paid parental leave or childcare benefits?
+	5. Military accommodations? 
+		1. At least 1 weekend a month and two weeks in summer
+		2. Policy for notifying when I have military obligations? Preferred notice date? Employer letter?
+		3. Potential to pay difference between civilian and military pay? I know this is not obligated but would be very kind
 3. What educational and training benefits do you offer?
 	2. Family education assistance?
 	3. I'd love to take night classes for an MBA and graduate degree in the long term, both of which I think could be very helpful for my career with B&D
